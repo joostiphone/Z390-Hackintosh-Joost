@@ -2,6 +2,7 @@
 Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919
 
 ![alt test](/Pictures/Z390info.png)
+![alt test](Pictures/HackintoshJoost.png)
 
 # Latest Changes:
 1. Updated succesfully to Supplemental Update for 10.15.4
