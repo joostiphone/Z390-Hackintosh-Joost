@@ -39,12 +39,9 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - HDMI (onboard and RX 570)
 
 # Notes:
-Everything I did went according @CaseySJ his outstanding guides on:
+- I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
+- Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-
-I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
-
-# Notes:
 - I didn’t change/add anything to 'Library/Extensions' folder. For kexts, I only used the 'EFI/CLOVER/kexts/Other/' folder.
 
 # Kexts:
