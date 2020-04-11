@@ -5,24 +5,44 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 ![alt test](Pictures/HackintoshJoost.png)
 
 # Latest Changes:
-1. Updated succesfully to Supplemental Update for 10.15.4
-2. ...
+(Item 1 is the oldest):
 
-# EFI ZIP file:
-Will upload later.
+0. Installed my system succesfully
+1. Updated succesfully to Supplemental Update for 10.15.4
+2. Updated Kexts
+3. ...
 
 # PC specifications:
+- OS's installed: Catalina 10.15.X dualbooted with Windows 10 Pro
+- PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
 - Sound card (onboard): ALC 1220-VB audio controller
 - SSD storage: Crucial Crucial MX500, 1TB 
 - Graphic card: Sapphire Nitro+ Radeon RX 570 4GD5
-- OS installed: Catalina 10.15.X dualbooted with Windows 10 Pro
 - Fenvi T919 for WiFi/Bluetooth, AirDrop etc.
+- Power Supply: Be quiet! Dark Power PRO 11 850W
+- Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
+- Cooling system: Cooler Master ML360R RGB 
 
-# Prerequisites:
+# Confirmed working
+-	CPU, RAM, Fans, Cooling etc.
+- Video
+-	Ethernet
+-	Sound
+- AirDrop (Fenvi)
+- WiFi (Fenvi)
+- Bluetooth (Fenvi)
+- Install apps by authorizing from Apple Watch
+- USB ports
+- Display Port (onboard and RX 570)
+- HDMI (onboard and RX 570)
+
+# Notes:
 Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+
+I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
 
 # Notes:
 - I didn’t change/add anything to 'Library/Extensions' folder. For kexts, I only used the 'EFI/CLOVER/kexts/Other/' folder.
@@ -54,15 +74,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 - Install latest Clover; but first make sure that this works according other users. Latest Clover build:
 https://github.com/CloverHackyColor/CloverBootloader/releases
 
-# Confirmed working
--	CPU, RAM, Fans, etc.
-- Video
--	Ethernet
--	Sound
-- AirDrop (Fenvi)
-- WiFi (Fenvi)
-- Bluetooth (Fenvi)
-- Install apps by authorizing from Apple Watch
+# EFI ZIP file:
+Will upload later.
 
 # Extras
 - Hide unneeded volumes in Clover with Clover Configurator. I've hide the following volumes:
