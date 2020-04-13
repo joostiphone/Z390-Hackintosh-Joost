@@ -26,7 +26,10 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Cooling system: Cooler Master ML360R RGB 
 - Stably overclocked the CPU at 5GHz, 1.3 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
   - Temperature IDLE (Still doing basic things ie. Music on, using Safari etc.): 30 degrees Celcius
-  - Stress tested: 50-60 degrees Celcius
+  - Stress tested: 50-60 degrees Celcius:
+  
+ ![alt test](/Pictures/Temp.png)
+  
 
 # Confirmed working
 -	CPU, RAM, Fans, Cooling etc.
