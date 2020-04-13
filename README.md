@@ -88,7 +88,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 https://github.com/CloverHackyColor/CloverBootloader/releases
 
 # EFI ZIP file:
-Will upload later.
+Download here. The EFI is without my serial number:
+https://mega.nz/folder/09QwCAZC#fQdj7cn-LnhvIMJlSm7t3w
 
 # Extras
 - Hide unneeded volumes in Clover with Clover Configurator. I've hide the following volumes:
