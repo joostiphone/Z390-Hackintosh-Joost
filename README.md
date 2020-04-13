@@ -25,6 +25,8 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Cooling system: Cooler Master ML360R RGB 
 - Stably overclocked the CPU at 5GHz, 1.3 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
+  - Temperature IDLE: 25 degrees Celcius
+  - Stress tested: 50-60 degrees Celcius
 
 # Confirmed working
 -	CPU, RAM, Fans, Cooling etc.
