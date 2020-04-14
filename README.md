@@ -4,13 +4,13 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 ![alt test](/Pictures/Z390info.png)
 ![alt test](Pictures/HackintoshJoost.png)
 
-# Latest Changes:
+# Latest Changes in uploaded EFI:
 (Item 1 is the oldest):
 
 0. Installed my system succesfully
 1. Updated succesfully to Supplemental Update for 10.15.4
 2. Updated Kexts
-3. ...
+3. Updated to Clover R5112
 
 # PC specifications:
 - OS's installed: Catalina 10.15.X dualbooted with Windows 10 Pro
