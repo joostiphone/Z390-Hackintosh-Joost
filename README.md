@@ -88,6 +88,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 - Install latest Clover; but first make sure that this works according other users. Latest Clover build:
 https://github.com/CloverHackyColor/CloverBootloader/releases
 
+![alt test](Pictures/CloverVersion.png)
+
 # EFI ZIP file:
 Download here. The EFI is without my serial number:
 https://mega.nz/folder/09QwCAZC#fQdj7cn-LnhvIMJlSm7t3w
