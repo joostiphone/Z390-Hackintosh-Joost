@@ -12,7 +12,11 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 2. Updated Kexts
 3. Updated to Clover R5112
 4. Updated Kexts and update to Clover R5113
-
+5. a. Updated to Clover R5114
+   b. Updated SSDT to go with the onboard Bluetooth chip, as per Kext in development: https://github.com/zxystd/IntelBluetoothFirmware/releases/
+6. ...
+   
+   
 # PC specifications:
 - OS's installed: Catalina 10.15.X dualbooted with Windows 10 Pro
 - PC Case: Fractal Design Define R6 USB-C TG
@@ -21,7 +25,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Sound card (onboard): ALC 1220-VB audio controller
 - SSD storage: Crucial Crucial MX500, 1TB 
 - Graphic card: Sapphire Nitro+ Radeon RX 570 4GD5
-- Fenvi T919 for WiFi/Bluetooth, AirDrop etc.
+- Fenvi T919 for WiFi/Bluetooth, AirDrop etc. I'm using the Z390 MoBo onboard Bluetooth chip to use bluetooth. So currently hand-off, airdrop etc. is working because of WiFi on T919 and Bluetooth on Z390.
 - Power Supply: Be quiet! Dark Power PRO 11 850W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Cooling system: Cooler Master ML360R RGB 
@@ -39,11 +43,37 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 -	Sound
 - AirDrop (Fenvi)
 - WiFi (Fenvi)
-- Bluetooth (Fenvi)
+- Bluetooth (Fenvi, but I'm using the Z390 Bluetooth chip)
 - Install apps by authorizing from Apple Watch
 - USB ports
 - Display Port (onboard and RX 570)
 - HDMI (onboard and RX 570)
+
+* Unlock with Apple Watch
+* Apple Pay
+* Sidecar
+* Continuity Camera
+
+It's all working 100% now - What did I do (Credits to CaseySJ)?
+* Shutdown iPad, iPhone, Apple Watch
+* Restart iPad, iPhone, Apple Watch
+* Log out of iCloud on iPad
+    * When iOS asked if I wanted to delete local copies of various items I said yes
+    * Everything was on iCloud anyway
+* Log out of iCloud on iPhone
+    * When iOS asked if I wanted to delete local copies of various items I said yes
+    * Everything was on iCloud anyway
+* Log back into iCloud on iPad
+* Log back into iCloud on iPhone
+Then on Hackintosh:
+* Logout of iCloud
+    * When macOS asked if I wanted to delete local copies of various items I said yes
+    * Everything was on iCloud anyway
+* Reboot
+* Log back into iCloud
+* Then shutdown, remove power plug, wait full 5 minutes.
+    * You may not need to wait so long... I was just doing other things...
+* Reconnect and power up.
 
 # Notes:
 - I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
