@@ -14,7 +14,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 4. Updated Kexts and update to Clover R5113
 5. a. Updated to Clover R5114
    b. Updated SSDT to go with the onboard Bluetooth chip, as per Kext in development: https://github.com/zxystd/IntelBluetoothFirmware/releases/
-6. NOTE: Switched from the Fenvi card to the onboard WiFi & Bluetooth module using (beta) kext (itlwm.kext)
+6. NOTE: Switched from the Fenvi card to the onboard WiFi & Bluetooth module using (beta) kext (itlwm.kext) and physically removed the Fenvi card from my PC. This is a test, but if you use the Fenvi card, I think it still works. So feel free to use what you want. See below references site to use the Kext option. 
 7. Updated Kexts and update to Clover R5119 and update to 10.15.5 (19F101)
    
    
@@ -132,6 +132,7 @@ https://mega.nz/folder/09QwCAZC#fQdj7cn-LnhvIMJlSm7t3w
 
 # Resources
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+Onboard WiFi+Bluetooth Kext (BETA): https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
 https://github.com/CloverHackyColor/CloverBootloader/releases
 https://www.tonymacx86.com/resources/clover-configurator.429/ 
 https://hackintosh.gitbook.io 
