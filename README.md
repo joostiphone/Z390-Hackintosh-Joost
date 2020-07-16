@@ -5,7 +5,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 ![alt test](Pictures/HackintoshJoost.png)
 
 # Latest Changes in uploaded EFI:
-(Item 1 is the oldest):
+(Item 0 is the oldest):
 
 0. Installed my system succesfully
 1. Updated succesfully to Supplemental Update for 10.15.4
@@ -14,7 +14,8 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 4. Updated Kexts and update to Clover R5113
 5. a. Updated to Clover R5114
    b. Updated SSDT to go with the onboard Bluetooth chip, as per Kext in development: https://github.com/zxystd/IntelBluetoothFirmware/releases/
-6. ...
+6. NOTE: Switched from the Fenvi card to the onboard WiFi & Bluetooth module using (beta) kext (itlwm.kext)
+7. Updated Kexts and update to Clover R5119 and update to 10.15.5 (19F101)
    
    
 # PC specifications:
