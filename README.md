@@ -138,3 +138,41 @@ https://www.tonymacx86.com/resources/clover-configurator.429/
 https://hackintosh.gitbook.io 
 https://www.tonymacx86.com/threads/how-to-create-a-macos-catalina-public-beta-installation-usb.278188/
 https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supported-intel-based-pc.259381/#uefi_settings
+
+# BIG SUR BETA on OpenCore
+PRECAUSION:
+- This is in testing phase, but it's working remarkably well so far. 
+
+
+So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
+
+- USB preparation and installation of Big Sur according this video:
+https://www.youtube.com/watch?v=J22vqnS-QZ4&t=2s
+- Create your EFI:
+https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
+- When the EFI is done, add your SSDT's and DTSD's to the EFI partition using CloverConfigurator to mount the EFI
+- After that, create your own Serial Number using CloverConfigurator
+
+Download my Big Sur EFI here:
+https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
+
+The following is working on macOS Big Sur so far:
+Audio ✔
+Ethernet ✔
+Graphics ✔
+HDMI ✔
+Sleep/wake Function ✔
+Power Management ✔
+App Store ✔
+iMessage ✔
+iCloud ✔
+FaceTime ✔
+USB with 2.0, 3.0, 3.1 and USB Type-C Ports ✔
+Bootloader ✔
+HDMI Audio ✔
+Volume Hotkeys ✔
+AirDrop ✔
+HandOff ✔
+Side Car (in progress, getting a black screen on iPad)
+
+
