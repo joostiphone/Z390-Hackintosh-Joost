@@ -140,11 +140,13 @@ https://www.tonymacx86.com/threads/how-to-create-a-macos-catalina-public-beta-in
 https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supported-intel-based-pc.259381/#uefi_settings
 
 # BIG SUR BETA on OpenCore
+So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
+
 PRECAUSION:
 - This is in testing phase, but it's working remarkably well so far. 
+- Currently using Big Sur Beta 3.
+- I'm using OpenCore 0.6.0 (which is a beta). You can download latest build from here which you can use during the EFI creation as per below: https://github.com/williambj1/OpenCore-Factory/releases
 
-
-So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
 
 - USB preparation and installation of Big Sur according this video:
 https://www.youtube.com/watch?v=J22vqnS-QZ4&t=2s
