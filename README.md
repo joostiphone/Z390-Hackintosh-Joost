@@ -146,7 +146,7 @@ PRECAUSION:
 - This is in testing phase, but it's working remarkably well so far. 
 - Currently using Big Sur Beta 3.
 - I'm using OpenCore 0.6.0 (which is a beta). You can download latest build from here which you can use during the EFI creation as per below: https://github.com/williambj1/OpenCore-Factory/releases
-
+- Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
 
 - USB preparation and installation of Big Sur according this video:
 https://www.youtube.com/watch?v=J22vqnS-QZ4&t=2s
