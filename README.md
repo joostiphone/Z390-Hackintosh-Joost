@@ -142,6 +142,8 @@ https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supporte
 # BIG SUR BETA on OpenCore
 So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
 
+![alt test](/Pictures/bigsurb3.png)
+
 PRECAUSION:
 - This is in testing phase, but it's working remarkably well so far. 
 - Currently using Big Sur Beta 3.
