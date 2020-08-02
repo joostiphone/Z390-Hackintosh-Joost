@@ -16,6 +16,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
    b. Updated SSDT to go with the onboard Bluetooth chip, as per Kext in development: https://github.com/zxystd/IntelBluetoothFirmware/releases/
 6. NOTE: Switched from the Fenvi card to the onboard WiFi & Bluetooth module using (beta) kext (itlwm.kext) and physically removed the Fenvi card from my PC. This is a test, but if you use the Fenvi card, I think it still works. So feel free to use what you want. See below references site to use the Kext option. 
 7. Updated Kexts and update to Clover R5119 and update to 10.15.6 (19G73)
+7a. 16-7-2020 12h48 Z390 10.15.6 R5119 NoSN.zip
    
    
 # PC specifications:
@@ -157,7 +158,17 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 - When the EFI is done, add your SSDT's and DTSD's to the EFI partition using CloverConfigurator to mount the EFI
 - After that, create your own Serial Number using CloverConfigurator
 
-Download my Big Sur EFI here:
+# Latest Changes in uploaded Big Sur EFI (without a Serial Number):
+(Item 0 is the oldest):
+
+0. Installed my system succesfully using OpenCore 0.6.0
+1. Tweaked it
+2. Updated to Beta 3
+2b. 30-7-2020 15h42 OC060 BigSurB3 NoSN.zip
+3. Updated OpenCore from scratch to OpenCore 0.6.0 commitment 0e81540 via: https://github.com/williambj1/OpenCore-Factory/releases
+3a. 2-8-2020 11h09 OC060 new BigSurB3 NoSN.zip
+
+Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
 The following is working on macOS Big Sur so far:
