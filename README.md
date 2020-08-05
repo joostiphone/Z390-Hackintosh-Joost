@@ -147,7 +147,7 @@ So, I made an effort by installing Big Sur on a separate SSD. So far it's workin
 
 PRECAUSION:
 - This is in testing phase, but it's working remarkably well so far. 
-- Currently using Big Sur Beta 3.
+- Currently using Big Sur Beta 4.
 - I'm using OpenCore 0.6.0 (which is a beta). You can download latest build from here which you can use during the EFI creation as per below: https://github.com/williambj1/OpenCore-Factory/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
 
@@ -167,6 +167,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 2b. 30-7-2020 15h42 OC060 BigSurB3 NoSN.zip
 3. Updated OpenCore from scratch to OpenCore 0.6.0 commitment 0e81540 via: https://github.com/williambj1/OpenCore-Factory/releases
 3a. 2-8-2020 11h09 OC060 new BigSurB3 NoSN.zip
+4. Updated to Beta 4
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
