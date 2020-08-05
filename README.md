@@ -189,6 +189,6 @@ HDMI Audio ✔
 Volume Hotkeys ✔
 AirDrop ✔
 HandOff ✔
-Side Car (in progress, getting a black screen on iPad)
+Side Car ✔ (works since Big Sur Beta 4)
 
 
