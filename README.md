@@ -135,8 +135,6 @@ https://github.com/Pavo-IM/ocbuilder
 # BIG SUR on OpenCore
 So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
 
-![alt test](/Pictures/bigsurb3.png)
-
 PRECAUSION:
 - Currently using Big Sur Public Beta. 
 - I'm using OpenCore 0.6.2. You can download the latest build from here which you can use during the EFI creation as per below: https://github.com/acidanthera/OpenCorePkg/releases
@@ -160,7 +158,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 3a. 2-8-2020 11h09 OC060 new BigSurB3 NoSN.zip
 4. Updated to Beta 4
 5. Updated to Public Beta (which I guess is the same as b4). 
-6. Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2)
+6. Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2). This is since 13-Oct-2020 my main system due to its stability.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
