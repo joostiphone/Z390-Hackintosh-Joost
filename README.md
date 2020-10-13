@@ -82,12 +82,11 @@ Then on Hackintosh:
 - I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
 - Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-- I didn’t change/add anything to 'Library/Extensions' folder. For kexts, I only used the 'EFI/CLOVER/kexts/Other/' folder.
 
 # Kexts:
-Make sure (!) you are using the latest kexts from the internet: 
+Make sure (!) you are using the latest kexts: 
 
-- FakeSMC.kext (Only install FakeSMC.kext, nothing else)
+- FakeSMC.kext
 https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/
 - USBInjectAll.kext
 https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
@@ -96,7 +95,7 @@ https://github.com/acidanthera/Lilu/releases
 - WhateverGreen.kext
 https://github.com/acidanthera/WhateverGreen/releases
 
-For convenvience purposes, use either Clover Configurator or Hackintool to mount EFI and update the Kexts.
+For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts.
 
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
@@ -133,7 +132,7 @@ https://github.com/Pavo-IM/OC-Gen-X
 https://github.com/Pavo-IM/ocbuilder
 
 # BIG SUR on OpenCore
-So, I made an effort by installing Big Sur on a separate SSD. So far it's working very well. A small how-to here: 
+So far Big Sur with OpenCore is working very well. A small how-to here: 
 
 PRECAUSION:
 - Currently using Big Sur Public Beta. 
@@ -158,7 +157,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 3a. 2-8-2020 11h09 OC060 new BigSurB3 NoSN.zip
 4. Updated to Beta 4
 5. Updated to Public Beta (which I guess is the same as b4). 
-6. Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2). This is since 13-Oct-2020 my main system due to its stability.
+6. 13-Oct-2020: Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2). This is now my main system due to its stability :-)
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
@@ -180,6 +179,6 @@ HDMI Audio ✔
 Volume Hotkeys ✔
 AirDrop ✔
 HandOff ✔
-Side Car ✔ (works since Big Sur Beta 4)
+Side Car :-( can't seem to get my iPad to work as a second screen (using iOS 14)
 
 
