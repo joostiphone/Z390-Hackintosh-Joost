@@ -106,13 +106,6 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 
 # Serial number:
 You need to make your own serial number, so that your iCloud etc. will work without using someone else his serial number.
-I removed the following:
-
-![alt test](Pictures/RT.png)
-![alt test](Pictures/SMBIOS.png)
-
-You need to create your own Serial Number, etc. according:
-https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
 # Updating Hackintosh
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
