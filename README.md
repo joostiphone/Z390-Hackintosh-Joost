@@ -181,4 +181,5 @@ AirDrop ✔
 HandOff ✔
 Side Car :-( can't seem to get my iPad to work as a second screen (using iOS 14)
 
-
+# Update your OpenCore EFI
+https://github.com/joostiphone/Update-OpenCore-to-latest-version
