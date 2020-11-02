@@ -4,22 +4,6 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 ![alt test](/Pictures/Z390info2.png)
 ![alt test](Pictures/HackintoshJoost.png)
 
-# Latest Changes in uploaded EFI:
-(Item 0 is the oldest):
-
-0. Installed my system succesfully
-    1. Updated succesfully to Supplemental Update for 10.15.4
-    2. Updated Kexts
-    3. Updated to Clover R5112
-    4. Updated Kexts and update to Clover R5113
-    5. a. Updated to Clover R5114
-       b. Updated SSDT to go with the onboard Bluetooth chip, as per Kext in development: https://github.com/zxystd/IntelBluetoothFirmware/releases/
-    6. NOTE: Switched from the Fenvi card to the onboard WiFi & Bluetooth module using (beta) kext (itlwm.kext) and physically removed the Fenvi card from my PC.               This is a test, but if you use the Fenvi card, I think it still works. So feel free to use what you want. See below references site to use the Kext option. 
-    7. Updated Kexts and update to Clover R5119 and update to 10.15.6 (19G73)
-    7a. 16-7-2020 12h48 Z390 10.15.6 R5119 NoSN.zip
-8. Fully migrated from Clover to OpenCore. This build won't support Clover anymore. See below information for track changes on my Big Sur system.
-
-   
 # PC specifications:
 - OS's installed: Big Sur dualbooted with Windows 10 Pro
 - PC Case: Fractal Design Define R6 USB-C TG
@@ -147,7 +131,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 - After that, create your own Serial Number using OpenCoreConfigurator
 
 # Latest Changes in uploaded Big Sur EFI (without a Serial Number):
-(Item 0 is the oldest):
+(Item 0 is the oldest)
 
 0. Installed my system succesfully using OpenCore 0.6.0
 1. Tweaked it
@@ -158,6 +142,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 4. Updated to Beta 4
 5. Updated to Public Beta (which I guess is the same as b4). 
 6. 13-Oct-2020: Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2). This is now my main system due to its stability :-)
+7. 2-Nov-2020: Updated to latest Public Beta (20B5012d), 11.0.1.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
