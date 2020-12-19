@@ -142,7 +142,8 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 4. Updated to Beta 4
 5. Updated to Public Beta (which I guess is the same as b4). 
 6. 13-Oct-2020: Updated to latest Public Beta (20A5384c) and latest final OpenCore Build (v0.6.2). This is now my main system due to its stability :-)
-7. 2-Nov-2020: Updated to latest Public Beta (20B5012d), 11.0.1.
+7. 2-Nov-2020: Updated to latest Public Beta (20B5012d), 11.0.1. and OpenCore to v0.6.3.
+8. 19-Dec-2020: Updated OpenCore to v0.6.4.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
