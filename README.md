@@ -16,7 +16,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Power Supply: Be quiet! Dark Power PRO 11 850W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Cooling system: Cooler Master ML360R RGB 
-- Stably overclocked the CPU at 5GHz, 1.3 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
+- Stably overclocked the CPU to 5GHz, 1.370 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
   - Temperature IDLE (Still doing basic things ie. Music on, using Safari etc.): 30 degrees Celcius
   - Stress tested: 50-60 degrees Celcius:
   
@@ -168,3 +168,6 @@ Side Car :-( can't seem to get my iPad to work as a second screen (using iOS 14)
 
 # Update your OpenCore EFI
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
+
+# BIOS Overclock Settings (BIOS Screenshots)
+https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
