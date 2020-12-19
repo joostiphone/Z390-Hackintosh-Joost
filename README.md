@@ -169,5 +169,16 @@ Side Car :-( can't seem to get my iPad to work as a second screen (using iOS 14)
 # Update your OpenCore EFI
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
-# BIOS Overclock Settings (BIOS Screenshots)
+# Overclocking Designare i7-9700K 5Ghz 
+
+Some basic settings, but you can still look at the attached BIOS screenshots for further details:
+- CPU Base Clock: 100Mhz
+- Extreme Memory Profile (XMP): Profile 1
+- CPU Vcore: 1.370V (instead of standard 1.200V)
+- Active Turbo Ratios: Enabled, and set every core on 50 (50 times 100Mhz CPU Base Clock = 5000Mhz).
+- C-States Control: Enable (disable all options there)
+
+![alt test](Pictures/cinebench.png)
+
+BIOS Overclock Settings (BIOS Screenshots)
 https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
