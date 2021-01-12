@@ -126,7 +126,7 @@ WiFi (Fenvi) ✔
 Bluetooth (Fenvi) ✔
 AirDrop (Fenvi) ✔
 HandOff ✔ 
-Side Car ✔ As you can see here:
+Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 ![alt test](Pictures/sidecar.png)
 
