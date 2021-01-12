@@ -126,7 +126,9 @@ WiFi (Fenvi) ✔
 Bluetooth (Fenvi) ✔
 AirDrop (Fenvi) ✔
 HandOff ✔ 
-Side Car ✔
+Side Car ✔ As you can see here:
+
+![alt test](Pictures/sidecar.png)
 
 # Update your OpenCore EFI
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
