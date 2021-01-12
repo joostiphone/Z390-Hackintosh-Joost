@@ -21,46 +21,6 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
   - Stress tested: 50-60 degrees Celcius:
   
  ![alt test](/Pictures/Temp.png)
-  
-
-# Confirmed working
--	CPU, RAM, Fans, Cooling etc.
-- Video
--	Ethernet
--	Sound
-- AirDrop (Fenvi)
-- WiFi (Fenvi)
-- Bluetooth (Fenvi, but I'm using the Z390 Bluetooth chip)
-- Install apps by authorizing from Apple Watch
-- USB ports
-- Display Port (onboard and RX 570)
-- HDMI (onboard and RX 570)
-
-* Unlock with Apple Watch
-* Apple Pay
-* Sidecar
-* Continuity Camera
-
-It's all working 100% now - What did I do (Credits to CaseySJ)?
-* Shutdown iPad, iPhone, Apple Watch
-* Restart iPad, iPhone, Apple Watch
-* Log out of iCloud on iPad
-    * When iOS asked if I wanted to delete local copies of various items I said yes
-    * Everything was on iCloud anyway
-* Log out of iCloud on iPhone
-    * When iOS asked if I wanted to delete local copies of various items I said yes
-    * Everything was on iCloud anyway
-* Log back into iCloud on iPad
-* Log back into iCloud on iPhone
-Then on Hackintosh:
-* Logout of iCloud
-    * When macOS asked if I wanted to delete local copies of various items I said yes
-    * Everything was on iCloud anyway
-* Reboot
-* Log back into iCloud
-* Then shutdown, remove power plug, wait full 5 minutes.
-    * You may not need to wait so long... I was just doing other things...
-* Reconnect and power up.
 
 # Notes:
 - I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk.
@@ -100,9 +60,6 @@ https://github.com/acidanthera/OpenCorePkg/releases
 # EFI ZIP file:
 Download here. The EFI is without my serial number:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
-
-# Extras
-n/a
 
 # Resources
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
@@ -150,6 +107,7 @@ Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
 The following is working on macOS Big Sur so far:
+CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
 Graphics ✔
@@ -164,9 +122,11 @@ USB with 2.0, 3.0, 3.1 and USB Type-C Ports ✔
 Bootloader ✔
 HDMI Audio ✔
 Volume Hotkeys ✔
-AirDrop ✔
-HandOff ✔
-Side Car :-( can't seem to get my iPad to work as a second screen (using iOS 14)
+WiFi (Fenvi) ✔
+Bluetooth (Fenvi) ✔
+AirDrop (Fenvi) ✔
+HandOff ✔ 
+Side Car ✔
 
 # Update your OpenCore EFI
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
