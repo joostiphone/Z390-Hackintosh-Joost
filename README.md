@@ -102,6 +102,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 8. 19-Dec-2020: Updated OpenCore to v0.6.4.
 9. 25-Dec-2020: Update to MacOS 11.1 (20C69)
 10. 12-Jan-2021: Updated OpenCore to v0.6.5.
+11. 4-Feb-2021: Updated to MacOS 11.2 (20D64), using OpenCore v0.6.5. (I will soon update to 0.6.6, but is not required perse for 11.2)
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
