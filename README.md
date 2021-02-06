@@ -3,6 +3,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 
 ![alt test](/Pictures/Z390info4.png)
 ![alt test](Pictures/HackintoshJoost.png)
+![alt test](Pictures/OC066.png)
 
 # PC specifications:
 - OS's installed: Big Sur dualbooted with Windows 10 Pro
