@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919
 
-![alt test](/Pictures/Z390info1.png)
+![alt test](/Pictures/Z390info5.png)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/OC066.png)
 
@@ -105,6 +105,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 10. 12-Jan-2021: Updated OpenCore to v0.6.5.
 11. 4-Feb-2021: Updated to MacOS 11.2 (20D64), using OpenCore v0.6.5.
 12. 5-Feb-2021: Updated OpenCore to v0.6.6.
+13. 11-Feb-2021: Updated to MacOS 11.2.1 (20D74), using OpenCore v0.6.6.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
@@ -133,10 +134,10 @@ Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 ![alt test](Pictures/sidecar.png)
 
-# Update your OpenCore EFI
+# Update your OpenCore EFI (procedure)
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
-# Overclocking Designare i7-9700K 5Ghz 
+# Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
 - CPU Base Clock: 100Mhz
 - Extreme Memory Profile (XMP): Profile 1
