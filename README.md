@@ -3,7 +3,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 
 ![alt test](/Pictures/Z390info5.png)
 ![alt test](Pictures/HackintoshJoost.png)
-![alt test](Pictures/OC066.png)
+![alt test](Pictures/22090947.png)
 
 # PC specifications:
 - OS's installed: Big Sur dualbooted with Windows 10 Pro
@@ -16,6 +16,7 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
 - Power Supply: Be quiet! Dark Power PRO 11 850W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
+- Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch.
 - Cooling system: Cooler Master ML360R RGB 
 - Stably overclocked the CPU to 5GHz, 1.370 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
   - Temperature IDLE (Still doing basic things ie. Music on, using Safari etc.): 30 degrees Celcius
@@ -107,6 +108,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 11. 4-Feb-2021: Updated to MacOS 11.2 (20D64), using OpenCore v0.6.5.
 12. 5-Feb-2021: Updated OpenCore to v0.6.6.
 13. 11-Feb-2021: Updated to MacOS 11.2.1 (20D74), using OpenCore v0.6.6.
+14. 22-Feb-2021: Small tweaks in EFI. Added Background.ICNS in Resources/Images folder (you can delete this if required). Also, OpenShell has been hidden now.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
