@@ -33,6 +33,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 # Kexts:
 Make sure (!) you are using the latest kexts: 
 
+- AppleALC
+https://github.com/acidanthera/AppleALC/releases
 - FakeSMC.kext
 https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/
 - USBInjectAll.kext
@@ -41,8 +43,10 @@ https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
 https://github.com/acidanthera/Lilu/releases
 - WhateverGreen.kext
 https://github.com/acidanthera/WhateverGreen/releases
+- VirtualSMC, SMCProcessor & SMCSuperIO (all downloaded from the same location):
+https://github.com/acidanthera/virtualsmc/releases
 
-For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts.
+For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts. I always provide the latest Kexts in my EFI as per below.
 
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
