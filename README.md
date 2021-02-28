@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919
 
-![alt test](/Pictures/Z390info5.png)
+![alt test](/Pictures/Z390info6.png)
 ![alt test](Pictures/IMG_1630.JPG)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/22090947.png)
@@ -114,6 +114,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 12. 5-Feb-2021: Updated OpenCore to v0.6.6.
 13. 11-Feb-2021: Updated to MacOS 11.2.1 (20D74), using OpenCore v0.6.6.
 14. 22-Feb-2021: Small tweaks in EFI. Added Background.ICNS in Resources/Images folder (you can delete this if required). Also, OpenShell has been hidden now.
+15. 28-Feb-2021: Updated to MacOS 11.2.2 (20D80), using OpenCore v0.6.6.
 
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
