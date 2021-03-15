@@ -146,6 +146,7 @@ Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 # Update your OpenCore EFI (procedure)
 ![alt test](Pictures/OpenCoreUpdate.png)
+
 https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
 # Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
