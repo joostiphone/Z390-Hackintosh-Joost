@@ -109,7 +109,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 15. 28-Feb-2021: Updated to MacOS 11.2.2 (20D80), using OpenCore v0.6.6.
 16. 9-March-2021: Updated OpenCore to v0.6.7 and to MacOS MacOS 11.2.3 (20D91).
 
-# Download my latest Big Sur EFI here:
+# Download my latest Big Sur EFI here (zip file):
+Download here. The EFI is without my serial number:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
 # Confirmed working:
@@ -136,10 +137,6 @@ Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 ![alt test](Pictures/sidecar.png)
 
-# Download my latest Big Sur EFI here (zip file):
-Download here. The EFI is without my serial number:
-https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
-
 # Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
 - CPU Base Clock: 100Mhz
@@ -155,12 +152,12 @@ https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
 
 
 # Resources
-https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-Onboard WiFi+Bluetooth Kext (BETA): https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
-https://hackintosh.gitbook.io 
-https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
-https://github.com/acidanthera/OpenCorePkg/releases
-https://github.com/williambj1/OpenCore-Factory/releases
-https://mackie100projects.altervista.org/download-opencore-configurator/
-https://github.com/Pavo-IM/OC-Gen-X
-https://github.com/Pavo-IM/ocbuilder
+- https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+- https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
+- https://hackintosh.gitbook.io 
+- https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
+- https://github.com/acidanthera/OpenCorePkg/releases
+- https://github.com/williambj1/OpenCore-Factory/releases
+- https://mackie100projects.altervista.org/download-opencore-configurator/
+- https://github.com/Pavo-IM/OC-Gen-X
+- https://github.com/Pavo-IM/ocbuilder
