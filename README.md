@@ -1,5 +1,5 @@
 # Z390-Hackintosh-Joost
-Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919
+This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
 
 ![alt test](/Pictures/Z390info7.png)
 ![alt test](Pictures/IMG_1712_2.png)
@@ -30,55 +30,8 @@ Joost's EFI for Hackintosh on Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T91
 - Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
-# Kexts:
-Make sure (!) you are using the latest kexts: 
-
-- AppleALC
-https://github.com/acidanthera/AppleALC/releases
-- FakeSMC.kext
-https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/
-- USBInjectAll.kext
-https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
-- Lilu.kext
-https://github.com/acidanthera/Lilu/releases
-- WhateverGreen.kext
-https://github.com/acidanthera/WhateverGreen/releases
-- VirtualSMC, SMCProcessor & SMCSuperIO (all downloaded from the same location):
-https://github.com/acidanthera/virtualsmc/releases
-
-For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts. I always provide the latest Kexts in my EFI as per below.
-
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-
-# Work Procedure:
-https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-
-# Serial number:
-You need to make your own serial number, so that your iCloud etc. will work without using someone else his serial number.
-
-# Updating Hackintosh (MacOS)
-https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-- Make sure you're using the latest stable release of OpenCore and that it works (you can use my efi as per below, or you can update OpenCore yourself)
-- In general; watch others do first to see if they succeed
-- Make sure first to install the latest Kext files
-- Install latest OpenCore; but first make sure that this works according other users. Latest OpenCore build:
-https://github.com/acidanthera/OpenCorePkg/releases
-
-# EFI ZIP file:
-Download here. The EFI is without my serial number:
-https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
-
-# Resources
-https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-Onboard WiFi+Bluetooth Kext (BETA): https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
-https://hackintosh.gitbook.io 
-https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
-https://github.com/acidanthera/OpenCorePkg/releases
-https://github.com/williambj1/OpenCore-Factory/releases
-https://mackie100projects.altervista.org/download-opencore-configurator/
-https://github.com/Pavo-IM/OC-Gen-X
-https://github.com/Pavo-IM/ocbuilder
 
 # BIG SUR on OpenCore
 Big Sur with OpenCore is working very well. A small how-to here: 
@@ -94,8 +47,47 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 - When the EFI is done, add your SSDT's and DTSD's to the EFI partition using OpenCoreConfigurator to mount the EFI
 - After that, create your own Serial Number using OpenCoreConfigurator
 
+# Serial number:
+You need to make your own serial number, so that your iCloud etc. will work without using someone else his serial number. In OC GEN-X or in OpenCore Configurator you can generate a new one if you don't have one yet, or if you need a new one.
+
+# Updating Hackintosh (MacOS)
+https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+- Make sure you're using the latest stable release of OpenCore and that it works (you can use my efi as per below, or you can update OpenCore yourself)
+- In general; watch others do first to see if they succeed
+- Make sure first to install the latest Kext files
+- Install latest OpenCore; but first make sure that this works according other users. Latest OpenCore build:
+https://github.com/acidanthera/OpenCorePkg/releases
+
+# Kexts:
+Make sure (!) you are using the latest kexts: 
+
+- AppleALC.kext
+https://github.com/acidanthera/applealc/releases
+- IntelMausi.kext
+https://github.com/acidanthera/IntelMausi/releases
+- SMCProcessor.kext
+It's part of the VirtualSMC zip as per below kext
+- USBInjectAll.kext
+https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
+- Lilu.kext
+https://github.com/acidanthera/Lilu/releases
+- WhateverGreen.kext
+https://github.com/acidanthera/WhateverGreen/releases
+- VirtualSMC.kext
+https://github.com/acidanthera/VirtualSMC/releases
+
+For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts. I always provide the latest Kexts in my EFI as per below.
+
+# Update your OpenCore EFI (small how-to)
+![alt test](Pictures/OpenCoreUpdate.png)
+
+https://github.com/joostiphone/Update-OpenCore-to-latest-version
+
+
 # Latest Changes in uploaded Big Sur EFI (without a Serial Number):
-(Item 0 is the oldest)
+Please note that I only use the latest Stable released versions of MacOS and OpenCore (so no beta's, nighly builds or latest commitments).
+
+(Item 0 is the oldest):
 
 0. Installed my system succesfully using OpenCore v0.6.0
 1. Tweaked it
@@ -120,7 +112,7 @@ https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 Download my latest Big Sur EFI here:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
-The following is working on macOS Big Sur so far:
+# Confirmed working:
 CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
@@ -144,10 +136,9 @@ Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 ![alt test](Pictures/sidecar.png)
 
-# Update your OpenCore EFI (procedure)
-![alt test](Pictures/OpenCoreUpdate.png)
-
-https://github.com/joostiphone/Update-OpenCore-to-latest-version
+# Download my latest Big Sur EFI here (zip file):
+Download here. The EFI is without my serial number:
+https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
 # Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
@@ -161,3 +152,15 @@ Some basic settings, but you can still look at the attached BIOS screenshots for
 
 BIOS Overclock Settings (BIOS Screenshots)
 https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
+
+
+# Resources
+https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+Onboard WiFi+Bluetooth Kext (BETA): https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
+https://hackintosh.gitbook.io 
+https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
+https://github.com/acidanthera/OpenCorePkg/releases
+https://github.com/williambj1/OpenCore-Factory/releases
+https://mackie100projects.altervista.org/download-opencore-configurator/
+https://github.com/Pavo-IM/OC-Gen-X
+https://github.com/Pavo-IM/ocbuilder
