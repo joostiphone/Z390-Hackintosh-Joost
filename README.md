@@ -110,6 +110,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 16. 9-March-2021: Updated OpenCore to v0.6.7 and to MacOS MacOS 11.2.3 (20D91).
 
 # Download my latest Big Sur EFI here (zip file):
+![alt test](Pictures/Apple-icon.png)
 Download here. The EFI is without my serial number:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
