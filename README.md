@@ -30,6 +30,11 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fen
 - Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
+# Create your USB stick with your pre-made as follows:
+https://github.com/joostiphone/MacOS-USB-Installer
+
+ ![alt test](/Pictures/USB-Big-Sur.png)
+
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
