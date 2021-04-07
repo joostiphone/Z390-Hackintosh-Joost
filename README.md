@@ -113,12 +113,16 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 14. 22-Feb-2021: Small tweaks in EFI. Added Background.ICNS in Resources/Images folder (you can delete this if required). Also, OpenShell has been hidden now.
 15. 28-Feb-2021: Updated to MacOS 11.2.2 (20D80), using OpenCore v0.6.6.
 16. 9-March-2021: Updated OpenCore to v0.6.7 and to MacOS MacOS 11.2.3 (20D91).
+17. 6-April-2021: Updated OpenCore to v0.6.8.
 
 # Download my latest Big Sur EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
-Download here. The EFI is without my serial number:
+Download here. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
+
+![alt test](Pictures/platforminfo.png)
+
 
 # Confirmed working:
 CPU, RAM, Fans, Cooling etc. ✔
