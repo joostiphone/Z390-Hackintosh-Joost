@@ -37,12 +37,15 @@ https://github.com/joostiphone/MacOS-USB-Installer
 
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
+PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
+https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
 # BIG SUR on OpenCore
 Big Sur with OpenCore is working very well. A small how-to here: 
 
 PRECAUSION:
-- I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...): https://github.com/acidanthera/OpenCorePkg/releases
+- I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
+-  https://github.com/acidanthera/OpenCorePkg/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
 
 - USB preparation and installation of Big Sur according this video:
