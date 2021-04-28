@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/Z390info7.png)
+![alt test](/Pictures/Z390info8.png)
 ![alt test](Pictures/IMG_1712_2.png)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/22090947.png)
