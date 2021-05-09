@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/Z390info8.png)
+![alt test](/Pictures/Z390info9.png)
 ![alt test](Pictures/IMG_1712_2.png)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/22090947.png)
@@ -118,6 +118,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 16. 9-March-2021: Updated OpenCore to v0.6.7 and to MacOS MacOS 11.2.3 (20D91).
 17. 6-April-2021: Updated OpenCore to v0.6.8.
 18. 28-April-2021: Updated to MacOS 11.3 (20E232), using OpenCore v0.6.8.
+19. 9-May-2021: Updated to MacOS 11.3.1 (20E241), using OpenCore v0.6.9.
 
 # Download my latest Big Sur EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
