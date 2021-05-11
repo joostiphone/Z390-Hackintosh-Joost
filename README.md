@@ -119,7 +119,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 17. 6-April-2021: Updated OpenCore to v0.6.8.
 18. 28-April-2021: Updated to MacOS 11.3 (20E232), using OpenCore v0.6.8.
 19. 9-May-2021: Updated to MacOS 11.3.1 (20E241), using OpenCore v0.6.9.
-20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROP and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
+20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROM and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
 
 # Download my latest Big Sur EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
