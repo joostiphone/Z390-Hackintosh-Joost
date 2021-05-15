@@ -172,6 +172,8 @@ Some basic settings, but you can still look at the attached BIOS screenshots for
 BIOS Overclock Settings (BIOS Screenshots)
 https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
 
+# Credits:
+https://github.com/joostiphone/Credits/blob/main/README.md
 
 # Resources
 - https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
