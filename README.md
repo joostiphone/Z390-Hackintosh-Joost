@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/Z390info9.png)
+![alt test](/Pictures/Z390info10.png)
 ![alt test](Pictures/IMG_1712_2.png)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/22090947.png)
@@ -13,7 +13,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fen
 - Motherboard: Gigabyte Z390 Designare
 - Sound card (onboard): ALC 1220-VB audio controller
 - SSD storage: Crucial Crucial MX500, 1TB 
-- Graphic card: Sapphire Nitro+ Radeon RX 570 4GD5
+- Graphic card: RX 6800 XT 16GB (previously I used the Sapphire Nitro+ Radeon RX 570 4GD5)
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
 - Power Supply: Be quiet! Dark Power PRO 11 850W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
@@ -125,6 +125,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 18. 28-April-2021: Updated to MacOS 11.3 (20E232), using OpenCore v0.6.8.
 19. 9-May-2021: Updated to MacOS 11.3.1 (20E241), using OpenCore v0.6.9.
 20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROM and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
+21. 12-6-2021: Updated to MacOS 11.4 (20F71), and updated to OpenCore v0.7.0.
 
 # Download my latest Big Sur EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
