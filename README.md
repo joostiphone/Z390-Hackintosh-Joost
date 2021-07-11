@@ -1,13 +1,13 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/Z390info10.png)
+![alt test](/Pictures/Z390info11.png)
 ![alt test](Pictures/IMG_1712_2.png)
 ![alt test](Pictures/HackintoshJoost.png)
 ![alt test](Pictures/22090947.png)
 
 # PC specifications:
-- OS's installed: Big Sur dualbooted with Windows 10 Pro
+- OS's installed: MacOS Monterey dualbooted with Windows 10 Pro
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
@@ -40,8 +40,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
-# BIG SUR on OpenCore
-Big Sur with OpenCore is working very well. A small how-to here: 
+# Monterey on OpenCore
+Monterey with OpenCore is working very well. A small how-to here: 
 
 PRECAUSION:
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
@@ -97,7 +97,7 @@ For convenvience purposes, use either OpenCore Configurator or Hackintool to mou
  https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
 
-# Latest Changes in uploaded Big Sur EFI (without a Serial Number):
+# Latest Changes in uploaded Monterey and Big Sur EFI (without a Serial Number):
 Please note that I only use the latest Stable released versions of MacOS and OpenCore (so no beta's, nighly builds or latest commitments).
 
 (Item 0 is the oldest):
@@ -126,8 +126,9 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 19. 9-May-2021: Updated to MacOS 11.3.1 (20E241), using OpenCore v0.6.9.
 20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROM and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
 21. 12-6-2021: Updated to MacOS 11.4 (20F71), and updated to OpenCore v0.7.0.
+22. 11-7-2021: Updated to MacOS Monterey 12.0 beta (21A5268h), and updated to OpenCore v0.7.1
 
-# Download my latest Big Sur EFI here (zip file):
+# Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
 Download here. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
