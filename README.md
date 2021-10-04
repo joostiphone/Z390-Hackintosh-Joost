@@ -1,5 +1,5 @@
 # Z390-Hackintosh-Joost
-This is my Hackintosh build using a Z390 Designare, i7, RX 570, 32GB RAM and Fenvi T919.
+This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
 ![alt test](/Pictures/Z390info11.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
@@ -127,6 +127,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROM and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
 21. 12-6-2021: Updated to MacOS 11.4 (20F71), and updated to OpenCore v0.7.0.
 22. 11-7-2021: Updated to MacOS Monterey 12.0 beta (21A5268h), and updated to OpenCore v0.7.1
+23. (next update will include support for Monterey Beta 8 using OpenCore v0.7.4.)
 
 # Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
