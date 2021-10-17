@@ -126,14 +126,20 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 19. 9-May-2021: Updated to MacOS 11.3.1 (20E241), using OpenCore v0.6.9.
 20. I'm now using HackinDROM to update the OpenCore EFI. Find a how-to video here on how to use HackinDROM and how to update OpenCore: https://www.youtube.com/watch?v=xRuerrG-lAU
 21. 12-6-2021: Updated to MacOS 11.4 (20F71), and updated to OpenCore v0.7.0.
-22. 11-7-2021: Updated to MacOS Monterey 12.0 beta (21A5268h), and updated to OpenCore v0.7.1
-23. (next update will include support for Monterey Beta 8 using OpenCore v0.7.4.)
+22. 11-7-2021: Updated to MacOS Monterey 12.0 beta (21A5268h), and updated to OpenCore v0.7.1.
+23. (next update will include support for Monterey Beta 8 using OpenCore v0.7.4.). 
+24. 11-10-2021: Updated to MacOS Monterey Beta 9, and updated to OpenCore v0.7.4 (plus a fix for Windows black-screen). And I changed the OpenCore Boot screen visual-wise as per my likings.
 
 # Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
-Download here. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
+Download here, supports Monterey or Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
+
+Big Sur OpenCore:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
+
+Monterey OpenCore:
+https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
 
 ![alt test](Pictures/platforminfo.png)
 
