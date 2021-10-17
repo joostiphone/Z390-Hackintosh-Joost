@@ -141,7 +141,7 @@ https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 Monterey OpenCore:
 https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
 
-![alt test](Pictures/platforminfo.png)
+![alt test](Pictures/2021-10-17_09-23-07.png)
 
 
 # Confirmed working:
