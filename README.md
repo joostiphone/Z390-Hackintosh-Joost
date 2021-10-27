@@ -48,8 +48,8 @@ PRECAUSION:
 -  https://github.com/acidanthera/OpenCorePkg/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
 
-- USB preparation and installation of Big Sur according this video:
-https://www.youtube.com/watch?v=J22vqnS-QZ4&t=2s
+- USB preparation and installation of Monterey according this video:
+https://www.youtube.com/watch?v=x6fZcFIT82c
 - Create your EFI:
 https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
 - When the EFI is done, add your SSDT's and DTSD's to the EFI partition using OpenCoreConfigurator to mount the EFI
