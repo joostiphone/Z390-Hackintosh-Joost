@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/Z390info11.png)
+![alt test](/Pictures/Z390info12.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/22090947.png)
@@ -132,6 +132,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 22. 11-7-2021: Updated to MacOS Monterey 12.0 beta (21A5268h), and updated to OpenCore v0.7.1.
 23. (next update will include support for Monterey Beta 8 using OpenCore v0.7.4.). 
 24. 11-10-2021: Updated to MacOS Monterey Beta 10, and updated to OpenCore v0.7.4 (plus a fix for Windows black-screen). And I changed the OpenCore Boot screen visual-wise as per my likings.
+25. 8-11-2021: Updated to MacOS 12.0.1 (21A559), and updated to OpenCore 0.7.5.
 
 # Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
