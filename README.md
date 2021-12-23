@@ -133,6 +133,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 23. (next update will include support for Monterey Beta 8 using OpenCore v0.7.4.). 
 24. 11-10-2021: Updated to MacOS Monterey Beta 10, and updated to OpenCore v0.7.4 (plus a fix for Windows black-screen). And I changed the OpenCore Boot screen visual-wise as per my likings.
 25. 8-11-2021: Updated to MacOS 12.0.1 (21A559), and updated to OpenCore 0.7.5.
+26. 5-12-2021: Updated OpenCore to v0.7.6.
+27. 23-12-2021: Updated to Mac OS 12.1 (21C52)
 
 # Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
