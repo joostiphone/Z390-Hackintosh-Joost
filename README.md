@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/2022-02-09_07-40-08.png)
+![alt test](/Pictures/2022-02-13_08-28-28.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/22090947.png)
@@ -136,6 +136,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 26. 5-12-2021: Updated OpenCore to v0.7.6.
 27. 23-12-2021: Updated to Mac OS 12.1 (21C52), ready for MacOS 12.2 (21D49).
 28. 8-2-2022: Updated OpenCore to v0.7.8 and to MacOS 12.2 (21D49).
+29. 13-2-2022: Updated to MacOS 12.2.1 (21D62), still using OpenCore v0.7.8.
 
 # Download my latest BEFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
