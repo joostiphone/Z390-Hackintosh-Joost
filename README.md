@@ -138,7 +138,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 28. 8-2-2022: Updated OpenCore to v0.7.8 and to MacOS 12.2 (21D49).
 29. 13-2-2022: Updated to MacOS 12.2.1 (21D62), still using OpenCore v0.7.8.
 
-# Download my latest BEFI here (zip file):
+# Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
 Download here, supports Monterey or Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
