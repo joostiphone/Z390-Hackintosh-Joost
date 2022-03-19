@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/2022-02-13_08-28-28.png)
+![alt test](/Pictures/2022-03-19_14-48-41.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/22090947.png)
@@ -137,6 +137,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 27. 23-12-2021: Updated to Mac OS 12.1 (21C52), ready for MacOS 12.2 (21D49).
 28. 8-2-2022: Updated OpenCore to v0.7.8 and to MacOS 12.2 (21D49).
 29. 13-2-2022: Updated to MacOS 12.2.1 (21D62), still using OpenCore v0.7.8.
+30. 19-3-2022: MacOS 12.3 is causing problems with 5000 and 6000 serie AMD Graphic Cards. Changes to DeviceProperties are required! This config has those changes included only for the AMD 6800 graphics card. Credits: https://www.tonymacx86.com/threads/asus-z690-proart-creator-wifi-thunderbolt-4-i7-12700k-amd-rx-6800-xt.318311/post-2313032 and https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6700-6800-6900-graphics-cards.319421/post-2312916 . First make use of these change or this config, then update to MacOS 12.3
+
 
 # Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
