@@ -15,7 +15,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - SSD storage: Crucial Crucial MX500, 1TB 
 - Graphic card: RX 6800 XT 16GB (previously I used the Sapphire Nitro+ Radeon RX 570 4GD5)
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
-- Power Supply: Be quiet! Dark Power PRO 11 850W
+- Power Supply: Be quiet! Dark Power 12 1000W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch.
 - Cooling system: Cooler Master ML360R RGB 
@@ -138,6 +138,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 28. 8-2-2022: Updated OpenCore to v0.7.8 and to MacOS 12.2 (21D49).
 29. 13-2-2022: Updated to MacOS 12.2.1 (21D62), still using OpenCore v0.7.8.
 30. 19-3-2022: MacOS 12.3 is causing problems with 5000 and 6000 serie AMD Graphic Cards. Changes to DeviceProperties are required! This config has those changes included only for the AMD 6800 graphics card. Credits: https://www.tonymacx86.com/threads/asus-z690-proart-creator-wifi-thunderbolt-4-i7-12700k-amd-rx-6800-xt.318311/post-2313032 and https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6700-6800-6900-graphics-cards.319421/post-2312916 . First make use of these change or this config, then update to MacOS 12.3
+31. 28-4-2022: Updated to OpenCore v0.8.0 and to MacOS 12.3.1 (21E258). Deactivated kext 'SmallTree-Intel-211-82576' (the file is still saved in the folder). Ethernet ports are working out of the box starting from MacOS 12.3.1, thank you Apple!
 
 
 # Download my latest EFI here (zip file):
