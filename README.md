@@ -7,19 +7,20 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/22090947.png)
 
 # PC specifications:
-- OS's installed: MacOS Monterey dualbooted with Windows 10 Pro
+- OS's installed: MacOS Monterey dualbooted with Windows 11 Pro
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
 - Sound card (onboard): ALC 1220-VB audio controller
 - SSD storage: Crucial Crucial MX500, 1TB 
-- Graphic card: RX 6800 XT 16GB (previously I used the Sapphire Nitro+ Radeon RX 570 4GD5)
+- Graphic card: AMD RX 6800 XT 16GB (previously I used the AMD Sapphire Nitro+ Radeon RX 570 4GD5)
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
 - Power Supply: Be quiet! Dark Power 12 1000W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch.
 - Cooling system: Cooler Master ML360R RGB 
 - Stably overclocked the CPU to 5GHz, 1.370 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
+  - Please note that overclocking can harm your PC/degrade your CPU's lifespan.
   - Temperature IDLE (Still doing basic things ie. Music on, using Safari etc.): 30 degrees Celcius
   - Stress tested: 50-60 degrees Celcius:
   
