@@ -4,7 +4,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](/Pictures/2022-05-27_16-40-11.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
-![alt test](Pictures/22090947.png)
+![alt test](Pictures/OpenCore-joostiphone.png)
 
 # PC specifications:
 - OS's installed: MacOS Monterey dualbooted with Windows 11 Pro
