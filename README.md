@@ -2,6 +2,7 @@
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
 ![alt test](/Pictures/2022-05-27_16-40-11.png)
+![alt test](/Pictures/Ventura-2022-06-23_11-12-00.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/OpenCore-joostiphone.png)
@@ -141,6 +142,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 30. 19-3-2022: MacOS 12.3 is causing problems with 5000 and 6000 serie AMD Graphic Cards. Changes to DeviceProperties are required! This config has those changes included only for the AMD 6800 graphics card. Credits: https://www.tonymacx86.com/threads/asus-z690-proart-creator-wifi-thunderbolt-4-i7-12700k-amd-rx-6800-xt.318311/post-2313032 and https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6700-6800-6900-graphics-cards.319421/post-2312916 . First make use of these change or this config, then update to MacOS 12.3
 31. 28-4-2022: Updated to OpenCore v0.8.0 and to MacOS 12.3.1 (21E258). Deactivated kext 'SmallTree-Intel-211-82576' (the file is still saved in the folder). Ethernet ports are working out of the box starting from MacOS 12.3.1, thank you Apple!
 32. 7-6-2022: Updated to OpenCore v0.8.1 and MacOS 12.4. 
+33. Ventura EFI: Waiting with the release till the Ventura public beta following CaseySJ's instructions (full credits again to him). 
 
 
 # Download my latest EFI here (zip file):
