@@ -32,7 +32,8 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
-# Create your USB stick with your pre-made as follows:
+# Create your USB stick with your pre-made EFI:
+Please see this page:
 https://github.com/joostiphone/MacOS-USB-Installer
 
  ![alt test](/Pictures/USB-STICK-VENT-MONT.png)
