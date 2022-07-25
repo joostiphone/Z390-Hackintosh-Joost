@@ -8,7 +8,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/OpenCore-joostiphone.png)
 
 # PC specifications:
-- OS's installed: MacOS Monterey dualbooted with Windows 11 Pro
+- OS's installed: MacOS Monterey dualbooted with MacOS Ventura (beta) and Windows 11 Pro
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
@@ -43,8 +43,8 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
-# Monterey on OpenCore
-Monterey with OpenCore is working very well. A small how-to here: 
+# Monterey & Ventura on OpenCore
+Monterey with OpenCore is working very well. Ventura is in beta but works fine so far. Latest OpenCore EFI files support both Monterey and Ventura. A small how-to here: 
 
 PRECAUSION:
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
@@ -151,12 +151,12 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 # Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
-Download here, supports Monterey or Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
+Download here, supports Ventura, Monterey or Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
 Big Sur OpenCore:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 
-Monterey OpenCore:
+Monterey and Ventura OpenCore:
 https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
