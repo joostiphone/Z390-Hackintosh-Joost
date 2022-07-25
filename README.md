@@ -144,6 +144,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 31. 28-4-2022: Updated to OpenCore v0.8.0 and to MacOS 12.3.1 (21E258). Deactivated kext 'SmallTree-Intel-211-82576' (the file is still saved in the folder). Ethernet ports are working out of the box starting from MacOS 12.3.1, thank you Apple!
 32. 7-6-2022: Updated to OpenCore v0.8.1 and MacOS 12.4. 
 33. Ventura EFI: Waiting with the release till the Ventura public beta following CaseySJ's instructions (full credits again to him). 
+    Edit: @CaseySJ released instructions and EFI for multiple OS's including Ventura, based on OC 0.8.3. - https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.316533/post-2331676
+34. 25-7-2022: Updated to OpenCore v0.8.3 and MacOS 13.0 Public Beta 1 - #Hackintosh #Ventura #Z390 #Designare
 
 
 # Download my latest EFI here (zip file):
