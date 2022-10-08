@@ -147,12 +147,13 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
     Edit: @CaseySJ released instructions and EFI for multiple OS's including Ventura, based on OC 0.8.3. - https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.316533/post-2331676
 34. 25-7-2022: Updated to OpenCore v0.8.3 and MacOS 13.0 (Ventura) Public Beta 1 - #Hackintosh #Ventura #Z390 #Designare
 35. 10-9-2022: Updated to OpenCore v0.8.4 and MacOS 13.0 (Ventura) Public Beta 5 (22A5342f)
+36. 8-10-2022: Updated to OpenCore v0.8.5 and MacOS 13.0 (Ventura) Public Beta 8
 
 
 # Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
-Download here, supports Ventura, Monterey or Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
+On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
 Big Sur OpenCore:
 https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
