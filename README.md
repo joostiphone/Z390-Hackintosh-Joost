@@ -150,6 +150,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 37. 10-9-2023: Updated to OpenCore v0.8.8 and MacOS 13.1 (Ventura) (22C65)
 38. 26-1-2023: Updated to MacOS 13.2 (22D49) 
 39. 14-2-2023: Updated to MacOS 13.2.1 (22D68)
+40. 16-2-2023: Updated to OpenCore v0.8.9
 
 
 # Download my latest EFI here (zip file):
