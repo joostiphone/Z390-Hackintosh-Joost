@@ -1,7 +1,7 @@
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
-![alt test](/Pictures/2023-02-16_07-50-40.png)
+![alt test](/Pictures/2023-05-10_11-18-23.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/OpenCore-joostiphone.png)
@@ -151,6 +151,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 38. 26-1-2023: Updated to MacOS 13.2 (22D49) 
 39. 14-2-2023: Updated to MacOS 13.2.1 (22D68)
 40. 16-2-2023: Updated to OpenCore v0.8.9
+41. 11-5-2023: Updated to OpenCore v0.9.2 and MacOS 13.3.1 (a) (22E772610a)
 
 
 # Download my latest EFI here (zip file):
