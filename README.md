@@ -35,7 +35,7 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 Please see this page:
 https://github.com/joostiphone/MacOS-USB-Installer
 
- ![alt test](/Pictures/USB-STICK-VENT-MONT.png)
+ ![alt test](/Pictures/USB-STICK-Vent-Sonoma.png)
 
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
