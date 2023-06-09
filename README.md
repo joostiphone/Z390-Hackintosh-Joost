@@ -154,6 +154,13 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 41. 11-5-2023: Updated to OpenCore v0.9.2 and MacOS 13.3.1 (a) (22E772610a)
 
 
+# Testing with macOS Sonoma (macOS 14.0)
+1. Installing macOS 14.0 beta 1 via the regular Apple channels. 
+
+2. Created a USB. Find the instructions here: https://github.com/joostiphone/MacOS-USB-Installer
+
+3. Created a first EFI based on the Ventura EFI. Forcing LILU to be loaded using bootargument. See 
+
 # Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
 
@@ -165,10 +172,12 @@ https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
 Monterey and Ventura OpenCore:
 https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
 
+Sonoma OpenCore:
+https://mega.nz/folder/ZxIUGITJ#e5u_6ZfURV0NvEmtdgW_xw
+
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
-
-# Confirmed working:
+# Confirmed working (Moneterey and Ventura):
 CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
@@ -191,6 +200,7 @@ HandOff ✔
 Side Car ✔ As you can see here using my regular display and iPad Pro:
 
 ![alt test](Pictures/sidecar.png)
+
 
 # Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
