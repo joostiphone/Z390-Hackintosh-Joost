@@ -161,7 +161,10 @@ https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.455
 2. Created a USB. Find the instructions here: https://github.com/joostiphone/MacOS-USB-Installer
 3. Created a first EFI based on the Ventura EFI. For Sonoma, I'm now using the latest OpenCore V0.9.4 dev version, and the latest Kext dev versions.
 4. Updated to Sonoma beta 3
-5. The current EFI is using AirPortItlwm (d02). https://github.com/OpenIntelWireless/itlwm/issues/883 . This means that the Intel WiFi on the Z390 MoBo is being used, instead of the Fenvi (broadcom) WiFi, since macOS Sonoma doesn't support Broadcom chips anymore; which forces us to use the Intel WiFi and AirPortItlwm. The Bluetooth on the Fenvi is still being used. 
+5. The current EFI is using AirPortItlwm (d02). https://github.com/OpenIntelWireless/itlwm/issues/883 . This means that the Intel WiFi on the Z390 MoBo is being used, instead of the Fenvi (broadcom) WiFi, since macOS Sonoma doesn't support Broadcom chips anymore; which forces us to use the Intel WiFi and AirPortItlwm. The Bluetooth on the Fenvi is still being used.
+
+![alt test](Pictures/Somoma-dev3-2.png)
+
 
 # Download my latest EFI here (zip file):
 ![alt test](Pictures/Apple-icon.png)
