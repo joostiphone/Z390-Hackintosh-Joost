@@ -107,7 +107,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 
 (Item 0 is the oldest):
 
-0. Installed my system succesfully using OpenCore v0.6.0
+0. Installed my system successfully using OpenCore v0.6.0
 1. Tweaked it
 2. Updated to Beta 3
 2b. 30-7-2020 15h42 OC060 BigSurB3 NoSN.zip
@@ -155,6 +155,13 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 42. 10-7-2023: Updated to OpenCore v0.9.4 dev. This EFI includes the AirPortItlwm (D02) WiFi driver for Intel based WiFi chips. This is eventually required for WiFi on macOS Sonoma. So, from this version on, the EFI is setup as such as a combination with Intel WiFi (AirPortItlwm) and Fenvi Bluetooth. For more information, I'm refering to this topic:
 https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.4557/page-2 
 
+Using the following MinKernel and MaxKernel:
+	MinKernel	MaxKernel
+Mojave	18.0.0	18.99.99	
+Catalina	19.0.0	19.99.99
+Big Sur	20.0.0	20.99.99	
+Ventura	22.0.0	22.99.99
+Sonoma	23.0.0	23.99.99
 
 # Testing with macOS Sonoma (macOS 14.0)
 1. Installing macOS 14.0 beta 1 via the regular Apple channels. 
