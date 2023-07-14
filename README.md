@@ -155,7 +155,7 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 42. 10-7-2023: Updated to OpenCore v0.9.4 dev. This EFI includes the AirPortItlwm (D02) WiFi driver for Intel based WiFi chips. This is eventually required for WiFi on macOS Sonoma. So, from this version on, the EFI is setup as such as a combination with Intel WiFi (AirPortItlwm) and Fenvi Bluetooth. For more information, I'm refering to this topic:
 https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.4557/page-2 
 
-Using the following MinKernel and MaxKernel:
+Using the following MinKernel and MaxKernel when using OpenCore to do conditional kext configuration when booting a macOS:
 	MinKernel	MaxKernel
 Mojave	18.0.0	18.99.99	
 Catalina	19.0.0	19.99.99
