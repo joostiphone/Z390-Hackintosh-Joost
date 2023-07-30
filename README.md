@@ -19,10 +19,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
 - Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch.
 - Cooling system: Cooler Master ML360R RGB 
-- Stably overclocked the CPU to 5GHz, 1.370 Volt. According: https://www.youtube.com/watch?v=6Sk4ISqmL88
-  - Please note that overclocking can harm your PC/degrade your CPU's lifespan.
-  - Temperature IDLE (Still doing basic things ie. Music on, using Safari etc.): 30 degrees Celcius
-  - Stress tested: 50-60 degrees Celcius:
+
   
  ![alt test](/Pictures/Temp.png)
 
@@ -215,7 +212,7 @@ Side Car ✔ As you can see here using my regular display and iPad Pro:
 ![alt test](Pictures/sidecar.png)
 
 
-# Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz 
+# Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz (I'm not using this, but tested with it):
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
 - CPU Base Clock: 100Mhz
 - Extreme Memory Profile (XMP): Profile 1
