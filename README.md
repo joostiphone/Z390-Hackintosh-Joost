@@ -7,7 +7,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/OpenCore-joostiphone.png)
 
 # PC specifications:
-- OS's installed: MacOS Monterey dualbooted with MacOS Ventura (beta) and Windows 11 Pro
+- OS's installed: MacOS Ventura and Windows 11 Pro (Sonoma in beta)
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
