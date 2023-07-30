@@ -190,7 +190,7 @@ https://mega.nz/folder/ZxIUGITJ#e5u_6ZfURV0NvEmtdgW_xw
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
-# Confirmed working (Moneterey and Ventura):
+# Confirmed working (Monterey and Ventura):
 CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
