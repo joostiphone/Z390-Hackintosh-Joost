@@ -5,6 +5,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/OpenCore-joostiphone.png)
+![alt test](Pictures/06143431.png)
 
 # PC specifications:
 - OS's installed: MacOS Ventura and Windows 11 Pro (Sonoma in beta)
@@ -149,8 +150,9 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 39. 14-2-2023: Updated to MacOS 13.2.1 (22D68)
 40. 16-2-2023: Updated to OpenCore v0.8.9
 41. 11-5-2023: Updated to OpenCore v0.9.2 and MacOS 13.3.1 (a) (22E772610a)
-42. 10-7-2023: Updated to OpenCore v0.9.4 dev. This EFI includes the AirPortItlwm (D02) WiFi driver for Intel based WiFi chips. This is eventually required for WiFi on macOS Sonoma. So, from this version on, the EFI is setup as such as a combination with Intel WiFi (AirPortItlwm) and Fenvi Bluetooth. For more information, I'm refering to this topic:
-https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.4557/page-2 
+42. 10-7-2023: Updated to OpenCore v0.9.4 dev. This EFI includes the AirPortItlwm (D02) WiFi driver for Intel based WiFi chips. This is eventually required for WiFi on macOS Sonoma. This EFI is setup as such as a combination with Intel WiFi (AirPortItlwm) and Fenvi Bluetooth. For more information, I'm refering to this topic:
+https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.4557/page-2
+43. 6-8-2023: Updated to OpenCore v0.9.4 dev, without AirPortItlm. I will upload a separate Sonoma version later on to keep this as vanilla as possible. 
 
 Using the following MinKernel and MaxKernel when using OpenCore to do conditional kext configuration when booting a macOS:
 	MinKernel	MaxKernel
