@@ -174,8 +174,6 @@ Sonoma	23.0.0	23.99.99
 
 
 # Download my latest EFI here (zip file):
-![alt test](Pictures/Apple-icon.png)
-
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
 Big Sur OpenCore:
