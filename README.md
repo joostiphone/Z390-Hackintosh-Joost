@@ -4,7 +4,6 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](/Pictures/2023-05-10_11-18-23.png)
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
-![alt test](Pictures/OpenCore-joostiphone.png)
 ![alt test](Pictures/06143431.png)
 
 # PC specifications:
