@@ -39,15 +39,15 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
-# Monterey & Ventura on OpenCore
-Monterey with OpenCore is working very well. Ventura is in beta but works fine so far. Latest OpenCore EFI files support both Monterey and Ventura. A small how-to here: 
+#  Ventura and Sonoma on OpenCore
+Ventura with OpenCore is working very well. Sonoma is in beta but works fine so far. Latest OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
 
 PRECAUSION:
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
 -  https://github.com/acidanthera/OpenCorePkg/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
 
-- USB preparation and installation of Monterey according this video:
+- USB preparation and installation of MacOS according this video:
 https://www.youtube.com/watch?v=x6fZcFIT82c
 - Create your EFI:
 https://www.youtube.com/watch?v=XyDJMNMFi6I&t=58s
@@ -99,12 +99,10 @@ For convenvience purposes, use either OpenCore Configurator or Hackintool to mou
  https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
 
-# Latest Changes in uploaded Monterey and Big Sur EFI (without a Serial Number):
-Please note that I only use the latest Stable released versions of MacOS and OpenCore (so no beta's, nighly builds or latest commitments).
+# Latest EFI Changes (without a Serial Number):
 
 (Item 0 is the oldest):
-
-0. Installed my system successfully using OpenCore v0.6.0
+0. Installed my system successfully using OpenCore v0.6.0 and Big Sur
 1. Tweaked it
 2. Updated to Beta 3
 2b. 30-7-2020 15h42 OC060 BigSurB3 NoSN.zip
