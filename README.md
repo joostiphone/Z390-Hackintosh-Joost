@@ -7,13 +7,13 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/06143431.png)
 
 # PC specifications:
-- OS's installed: MacOS Ventura and Windows 11 Pro (Sonoma in beta)
+- OS's installed: MacOS Ventura, MacOS Sonoma (beta), Windows 11 Pro and Ubuntu
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
 - Sound card (onboard): ALC 1220-VB audio controller
-- SSD storage: Crucial Crucial MX500, 1TB 
-- Graphic card: AMD RX 6800 XT 16GB (previously I used the AMD Sapphire Nitro+ Radeon RX 570 4GD5)
+- SSD storage: WD BLACK SN850X NVMe SSD, Crucial Crucial MX500, 1TB 
+- Graphic card: AMD RX 6800 XT 16GB (previously the AMD Sapphire Nitro+ Radeon RX 570 4GD5)
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
 - Power Supply: Be quiet! Dark Power 12 1000W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
