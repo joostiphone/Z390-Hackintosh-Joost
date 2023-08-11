@@ -152,7 +152,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 41. 11-5-2023: Updated to OpenCore v0.9.2 and MacOS 13.3.1 (a) (22E772610a)
 42. 10-7-2023: Updated to OpenCore v0.9.4 dev. This EFI includes the AirPortItlwm (D02) WiFi driver for Intel based WiFi chips. This is eventually required for WiFi on macOS Sonoma. This EFI is setup as such as a combination with Intel WiFi (AirPortItlwm) and Fenvi Bluetooth. For more information, I'm refering to this topic:
 https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.4557/page-2
-43. 6-8-2023: Updated to OpenCore v0.9.4 dev, without AirPortItlm. I will upload a separate Sonoma version later on to keep this as vanilla as possible. 
+43. 6-8-2023: Updated to OpenCore v0.9.4 dev, without AirPortItlm. I will upload a separate Sonoma version later on to keep this as vanilla as possible.
+44. 11-8-2023: Updated to OpenCore v0.9.4 final. Ventura will use Broadcom (Fenvi) and Sonoma will use AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5. 
 
 Using the following MinKernel and MaxKernel when using OpenCore to do conditional kext configuration when booting a macOS:
 	MinKernel	MaxKernel
@@ -162,13 +163,14 @@ Big Sur	20.0.0	20.99.99
 Ventura	22.0.0	22.99.99
 Sonoma	23.0.0	23.99.99
 
-# Testing with macOS Sonoma (macOS 14.0)
+# macOS Sonoma (macOS 14.0)
 1. Installing macOS 14.0 beta 1 via the regular Apple channels. 
 2. Created a USB. Find the instructions here: https://github.com/joostiphone/MacOS-USB-Installer
 3. Created a first EFI based on the Ventura EFI. For Sonoma, I'm now using the latest OpenCore V0.9.4 dev version, and the latest Kext dev versions.
 4. Updated to Sonoma beta 3
 5. The current EFI is using AirPortItlwm (d02). https://github.com/OpenIntelWireless/itlwm/issues/883 . This means that the Intel WiFi on the Z390 MoBo is being used, instead of the Fenvi (broadcom) WiFi, since macOS Sonoma doesn't support Broadcom chips anymore; which forces us to use the Intel WiFi and AirPortItlwm. The Bluetooth on the Fenvi is still being used.
 6. Updated to Sonoma second version of beta 3
+7. Updated to Sonoma Public Beta 3 with final OpenCore V0.9.4 and final kexts. This is using AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5. 
 
 ![alt test](Pictures/Somoma-dev3-2.png)
 
