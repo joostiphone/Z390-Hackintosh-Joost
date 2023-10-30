@@ -159,7 +159,7 @@ Big Sur	20.0.0	20.99.99
 Ventura	22.0.0	22.99.99
 Sonoma	23.0.0	23.99.99
 
-# macOS Sonoma (macOS 14.0)
+# macOS Sonoma (macOS 14)
 1. Installing macOS 14.0 beta 1 via the regular Apple channels. 
 2. Created a USB. Find the instructions here: https://github.com/joostiphone/MacOS-USB-Installer
 3. Created a first EFI based on the Ventura EFI. For Sonoma, I'm now using the latest OpenCore V0.9.4 dev version, and the latest Kext dev versions.
@@ -168,6 +168,7 @@ Sonoma	23.0.0	23.99.99
 6. Updated to Sonoma second version of beta 3
 7. Updated to Sonoma Public Beta 3 with final OpenCore v0.9.4 and final kexts. This is using AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5.
 8. Updated to Sonoma RC2 (which will most probably become the Customer version) with final OpenCore v0.9.5 and final kexts. This is using AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5 and later.
+9. Updated to Sonoma 14.1 with OpenCore v0.9.5. 
 
 ![alt test](Pictures/2023-10-26_21-48-47.png)
 
