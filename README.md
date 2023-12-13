@@ -168,9 +168,10 @@ Sonoma	23.0.0	23.99.99
 6. Updated to Sonoma second version of beta 3
 7. Updated to Sonoma Public Beta 3 with final OpenCore v0.9.4 and final kexts. This is using AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5.
 8. Updated to Sonoma RC2 (which will most probably become the Customer version) with final OpenCore v0.9.5 and final kexts. This is using AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5 and later.
-9. Updated to Sonoma 14.1 with OpenCore v0.9.5. 
+9. Updated to Sonoma 14.1 with OpenCore v0.9.5.
+10. Updated to Sonoma 14.2 with OpenCore v0.9.7.
 
-![alt test](Pictures/2023-10-26_21-48-47.png)
+![alt test](Pictures/2023-12-13_09-33-40.png)
 
 
 # Download my latest EFI here (zip file):
