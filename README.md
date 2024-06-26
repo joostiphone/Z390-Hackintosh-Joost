@@ -174,6 +174,22 @@ Sonoma	23.0.0	23.99.99
 
 ![alt test](Pictures/2024-05-18_16-48-16.png)
 
+# macOS Sequoia (Beta)
+Notes:
+Sequoia works, the only thing that isn't working is WiFi (AirportItlwm) and/or Fenvi (Broadcom).
+
+Ethernet works just fine.
+During the Sequoia installation, to avoid a black screen, I needed to use my HDMI port instead of the DisplayPort. After the installation the DisplayPort worked again.
+Extra settings compared to Sonoma:
+
+Updated all kexts to their beta versions
+and added RestrictEvents.kext (don't forget to add -revbeta to boot arguments)
+Updated OpenCore to 101 dev version
+Using the following boot arguments:
+keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta -vsmcbeta
+
+1. Installing macOS 15 dev beta 1. Downloaded via gibMacOS.
+2. Upgrading to macOS 15 dev beta 2. Downloaded via gibMacOS.
 
 # Download my latest EFI here (zip file):
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
@@ -186,6 +202,9 @@ https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
 
 Sonoma OpenCore:
 https://mega.nz/folder/ZxIUGITJ#e5u_6ZfURV0NvEmtdgW_xw
+
+Sequoia OpenCore: 
+https://mega.nz/folder/x8QXmTCK#FP5Dn3u1b4C_PRsCEG13rQ
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
