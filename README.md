@@ -192,6 +192,9 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 2. Upgrading to macOS 15 dev beta 2. Downloaded via gibMacOS.
 3. Added Sequoia boot icons (theme update by Chris1111) and updated OpenCore 1.0.1 dev version.
 
+ ![alt test](/Pictures/2024-06-30_10-58-42.png)
+
+
 # Download my latest EFI here (zip file):
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
