@@ -188,8 +188,8 @@ Updated OpenCore to 101 dev version
 Using the following boot arguments:
 keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta -vsmcbeta
 
-1. Installing macOS 15 dev beta 1. Downloaded via gibMacOS.
-2. Upgrading to macOS 15 dev beta 2. Downloaded via gibMacOS.
+1. Installing macOS 15 dev beta 1 on OpenCore 1.0.1 dev. Downloaded via gibMacOS.
+2. Upgrading to macOS 15 dev beta 2 on OpenCore 1.0.1 dev. Downloaded via gibMacOS.
 3. Added Sequoia boot icons (theme update by Chris1111) and updated OpenCore 1.0.1 dev version.
 
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
