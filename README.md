@@ -152,12 +152,13 @@ https://forum.amd-osx.com/threads/testing-intel-wifi-itlwm-driver-for-sonoma.455
 44. 11-8-2023: Updated to OpenCore v0.9.4 final. Ventura will use Broadcom (Fenvi) and Sonoma will use AirPort Itlwm Preview 05 for Intel WiFi on Sonoma, specifically for Public Beta 5. 
 
 Using the following MinKernel and MaxKernel when using OpenCore to do conditional kext configuration when booting a macOS:
-	MinKernel	MaxKernel
-Mojave	18.0.0	18.99.99	
-Catalina	19.0.0	19.99.99
-Big Sur	20.0.0	20.99.99	
-Ventura	22.0.0	22.99.99
-Sonoma	23.0.0	23.99.99
+		MinKernel	MaxKernel
+Mojave		18.0.0		18.99.99	
+Catalina	19.0.0		19.99.99
+Big Sur		20.0.0		20.99.99	
+Ventura		22.0.0		22.99.99
+Sonoma		23.0.0		23.99.99
+Sequoia		24.0.0		24.99.99
 
 # macOS Sonoma (macOS 14)
 1. Installing macOS 14.0 beta 1 via the regular Apple channels. 
@@ -174,7 +175,7 @@ Sonoma	23.0.0	23.99.99
 
 ![alt test](Pictures/2024-05-18_16-48-16.png)
 
-# macOS Sequoia (Beta)
+# macOS Sequoia (macOS 15, Beta)
 Notes:
 Sequoia works, the only thing that isn't working is WiFi (AirportItlwm) and/or Fenvi (Broadcom).
 
@@ -191,6 +192,7 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 1. Installing macOS 15 dev beta 1 on OpenCore 1.0.1 dev. Downloaded via gibMacOS.
 2. Upgrading to macOS 15 dev beta 2 on OpenCore 1.0.1 dev. Downloaded via gibMacOS.
 3. Added Sequoia boot icons (theme update by Chris1111) and updated OpenCore 1.0.1 dev version.
+4. Added WiFi (and AirDrop) support using Heliport+Itlwm on Sequoia. AirportItlwm is still being used when booting into Sonoma. And updated OpenCore 1.0.1 dev version again. 
 
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
 
