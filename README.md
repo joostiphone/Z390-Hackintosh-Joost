@@ -102,7 +102,7 @@ For convenvience purposes, use either OpenCore Configurator or Hackintool to mou
  https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
 
-# EFI's and History (without a Serial Number):
+# EFI Changelogs:
 
 # macOS Big Sur (macOS 11), Monterey (macOS) and Ventura (macOS 13)
 (Item 0 is the oldest):
