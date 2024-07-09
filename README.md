@@ -6,7 +6,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/06143431.png)
 
 # PC specifications:
-- OS's installed: MacOS Ventura, MacOS Sonoma (beta), Windows 11 Pro and Ubuntu
+- OS's installed: MacOS Sequoia, MacOS Sonoma, Windows 11 Pro and Ubuntu
 - PC Case: Fractal Design Define R6 USB-C TG
 - Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
 - Motherboard: Gigabyte Z390 Designare
