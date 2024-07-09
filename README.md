@@ -39,7 +39,11 @@ PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the secur
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
 #  Ventura and Sonoma on OpenCore
-Ventura with OpenCore is working very well. Sonoma is in beta but works fine so far. Latest OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
+Ventura with OpenCore is working very well. Sonoma is in beta but works fine so far. OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
+
+# Sequoia and Sonoma on OpenCore
+Sequoia on Opencore is working fine also with a few things to keep in mind: I'm using Heliport+Itlwm, and when installing it needs the HDMI port instead of the DisplayPort. 
+So far, Sonoma works with the same EFI, so you can dualboot without any trouble. 
 
 PRECAUSION:
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
