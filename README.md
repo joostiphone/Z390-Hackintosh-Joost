@@ -16,7 +16,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
 - Power Supply: Be quiet! Dark Power 12 1000W
 - Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
-- Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch.
+- Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch. Using DisplayPort. 
 - Cooling system: Cooler Master ML360R RGB 
 
   
