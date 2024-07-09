@@ -104,7 +104,7 @@ For convenvience purposes, use either OpenCore Configurator or Hackintool to mou
 
 # EFI's and History (without a Serial Number):
 
-# macOS Big Sur (macOS 12) and Ventura (macOS 13)
+# macOS Big Sur (macOS 11), Monterey (macOS) and Ventura (macOS 13)
 (Item 0 is the oldest):
 0. Installed my system successfully using OpenCore v0.6.0 and Big Sur
 1. Tweaked it
@@ -161,6 +161,7 @@ Using the following MinKernel and MaxKernel when using OpenCore to do conditiona
 Mojave		18.0.0		18.99.99	
 Catalina	19.0.0		19.99.99
 Big Sur		20.0.0		20.99.99	
+Monterey  21.0.0    21.99.99
 Ventura		22.0.0		22.99.99
 Sonoma		23.0.0		23.99.99
 Sequoia		24.0.0		24.99.99
