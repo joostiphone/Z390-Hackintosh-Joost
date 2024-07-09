@@ -102,8 +102,9 @@ For convenvience purposes, use either OpenCore Configurator or Hackintool to mou
  https://github.com/joostiphone/Update-OpenCore-to-latest-version
 
 
-# Latest EFI Changes (without a Serial Number):
+# EFI's and History (without a Serial Number):
 
+# macOS Big Sur (macOS 12) and Ventura (macOS 13)
 (Item 0 is the oldest):
 0. Installed my system successfully using OpenCore v0.6.0 and Big Sur
 1. Tweaked it
@@ -179,7 +180,7 @@ Sequoia		24.0.0		24.99.99
 
 ![alt test](Pictures/2024-05-18_16-48-16.png)
 
-# macOS Sequoia (macOS 15, Beta)
+# macOS Sequoia (macOS 15)
 Notes:
 Sequoia works, the only thing that isn't working is WiFi (AirportItlwm) and/or Fenvi (Broadcom).
 
@@ -201,7 +202,7 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
 
 
-# Download my latest EFI here (zip file):
+# Download my EFI's here (zip file):
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
 Big Sur OpenCore:
