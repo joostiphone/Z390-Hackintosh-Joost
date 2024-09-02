@@ -208,16 +208,16 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
 Big Sur OpenCore:
-https://mega.nz/folder/l9xGHQQC#63JkmaR5IT3ONQ4G1RmfLQ
+https://mega.nz/folder/81oAmI6Y#63JkmaR5IT3ONQ4G1RmfLQ
 
 Monterey and Ventura OpenCore:
-https://mega.nz/folder/k8hwSIzB#K1b4jyXhH0XtVsxhJr9mSw
+https://mega.nz/folder/0xRFwRga#K1b4jyXhH0XtVsxhJr9mSw
 
 Sonoma OpenCore:
-https://mega.nz/folder/ZxIUGITJ#e5u_6ZfURV0NvEmtdgW_xw
+https://mega.nz/folder/shhCHazB#e5u_6ZfURV0NvEmtdgW_xw
 
 Sequoia OpenCore: 
-https://mega.nz/folder/x8QXmTCK#FP5Dn3u1b4C_PRsCEG13rQ
+https://mega.nz/folder/FkxA1b4Y#FP5Dn3u1b4C_PRsCEG13rQ
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
