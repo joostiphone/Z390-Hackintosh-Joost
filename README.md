@@ -3,7 +3,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 
 ![alt test](Pictures/RX6800XT-hackintosh2.jpg)
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
-![alt test](Pictures/06143431.png)
+![alt test](Pictures/04101939.png)
 
 # PC specifications:
 - Current OS's installed: MacOS Sequoia, MacOS Sonoma, Windows 11 Pro and Ubuntu
