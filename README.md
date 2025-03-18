@@ -201,10 +201,12 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 4. Added WiFi (and AirDrop) support using Heliport+Itlwm on Sequoia. AirportItlwm is still being used when booting into Sonoma. And updated OpenCore 1.0.1 dev version again.
 5. Upgrading to macOS 15 dev 24A5331b on OpenCore 1.0.2 dev and latest Kext-betas as per 2-Sept-2024.
 6. Upgrading to macOS 15.3 (24D60) on OpenCore 1.0.4 dev and latest Kext-betas as per 4-2-2025. Still using Heliport+Itlwm on Sequoia as Broadcom WiFi doesn't work on Sequoia.
-7. 18-3-2025 Z390 OC105DEV Sequoia Itlwm+Heliport NoSN: Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that.Upgrading to macOS 15.4 dev () on OpenCore 1.0.5 dev and latest Kext-betas as per 18-3-2025. Using Heliport+Itlwm only on Sequoia. Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that.
+7. 18-3-2025 Z390 OC105DEV Sequoia Itlwm+Heliport NoSN: Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that.Upgrading to macOS 15.4 dev () on OpenCore 1.0.5 dev and latest Kext-betas as per 18-3-2025. Using Heliport+Itlwm only on Sequoia. Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that. I'm using Lorys89 Itlwm version, since that one is working with Sequoia: https://github.com/Lorys89/itlwm/releases 
 
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
 
+# Itlwm + HeliPort:
+ ![alt test](/Pictures/2025-03-18_10-04-06.png)
 
 # Download my EFI's here (zip file):
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
@@ -296,3 +298,4 @@ https://github.com/joostiphone/Credits/blob/main/README.md
 - https://mackie100projects.altervista.org/download-opencore-configurator/
 - https://github.com/Pavo-IM/OC-Gen-X
 - https://github.com/Pavo-IM/ocbuilder
+- https://github.com/Lorys89/itlwm/releases
