@@ -123,6 +123,63 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
 
+## 🧬 BIOS Configuration for OpenCore Hackintosh (Z390 / Gigabyte Designare Example)
+
+To ensure compatibility with macOS and OpenCore, your BIOS must be configured correctly. Follow these steps before booting into the installer.
+
+### Instructions
+
+1. **Enter BIOS Setup**  
+   Press `F2` during startup to enter BIOS and switch to **Advanced Mode**.
+
+2. **Load Optimized Defaults**  
+   Press `F7` → Confirm to load default settings.
+
+3. **Apply the Following Settings:**
+
+<pre><code>### Tweaker Tab
+Extreme Memory Profile (X.M.P) → <strong>Profile 1</strong>
+
+Advanced CPU Settings →  
+  VT-d → <strong>Enabled</strong>  # Required for AppleVTD in macOS
+
+### Settings Tab
+Internal Graphics → <strong>Enabled</strong>  # Required for headless iGPU setups or iGPU acceleration  
+Above 4G Decoding → <strong>Enabled</strong>  # Required for AMD GPUs and macOS memory mapping
+
+### Thunderbolt(TM) Configuration
+Security Level → <strong>No Security</strong>  # Allows macOS to detect Thunderbolt devices  
+(If Save & Exit dialog appears, press ESC to cancel)
+
+### Discrete Thunderbolt(TM) Configuration
+Thunderbolt USB Support → <strong>Enabled</strong>  
+GPIO3 Force Pwr → <strong>Enabled</strong>
+
+### USB Configuration
+XHCI Handoff → <strong>Enabled</strong>  # Required for proper USB support
+
+### Boot Tab
+Windows 8/10 Features → <strong>Other OS</strong>  
+CSM Support → <strong>Disabled</strong>  
+# Some GPUs may require CSM to be enabled. Use what works for your hardware.
+
+### Save & Exit
+Save Profiles → <strong>Save to Profile 1</strong>  
+# This stores your BIOS settings for easy recovery.
+</code></pre>
+
+4. **For Firmware Version F9i and newer:**
+
+<pre><code>### Boot Tab
+CFG-Lock → <strong>Disabled</strong>  # Allows macOS kernel to write MSR 0xE2 (power management)
+</code></pre>
+
+### 💡 Notes
+- If your system has trouble booting, try toggling `CSM Support`.
+- `Above 4G Decoding` is critical for users with AMD GPUs (like RX 6800 XT).
+- `VT-d` must be enabled for `AppleVTD` in macOS 12.3 and later.
+- Always save BIOS settings to a profile for quick recovery in case of resets.
+
 #  Sonoma and Ventura on OpenCore
 Sonoma and Ventura with OpenCore are working very well. OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
 
