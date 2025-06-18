@@ -5,17 +5,19 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/04101939.png)
 
-## Table of Contents
-- [System Specifications](#-hackintosh-multi-boot-system--specifications)
-- [OpenCore Configuration Overview](#-opencore-configplist-key-section-overview)
-- [SSDT Explanation](#ssdt-overview)
-- [BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
-- [macOS Versions](#macos-versions-history)
-- [Kexts Used](#kexts)
-- [EFI Downloads](#download-my-efis-here-zip-file)
-- [Confirmed Functionality](#confirmed-working)
-- [Overclocking (Optional)](#optional-overclocking-z390-designare-i7-9700k-to-5ghz)
-- [Credits and Resources](#credits)
+## 📚 Table of Contents
+- [🖥️ Hackintosh Multi-Boot System – Specifications](#️-hackintosh-multi-boot-system--specifications)
+- [💽 Operating Systems Installed](#-operating-systems-installed)
+- [🧰 Bootloader](#-bootloader)
+- [🔧 OpenCore Configuration Overview](#-opencore-configplist-key-section-overview)
+- [🧩 SSDT Explanation](#ssdt-overview)
+- [🧬 BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
+- [🍏 macOS Versions](#macos-versions-history)
+- [📦 Kexts Used](#kexts)
+- [📥 EFI Downloads](#download-my-efis-here-zip-file)
+- [✅ Confirmed Functionality](#confirmed-working)
+- [⚡ Overclocking (Optional)](#optional-overclocking-z390-designare-i7-9700k-to-5ghz)
+- [🙌 Credits and Resources](#credits)
 
 ## 🖥️ Hackintosh Multi-Boot System – Specifications
 
@@ -457,7 +459,7 @@ Some basic settings, but you can still look at the attached BIOS screenshots for
 
 ![alt test](Pictures/cinebench.png)
 
-BIOS Overclock Settings (BIOS Screenshots)
+## BIOS Overclock Settings (BIOS Screenshots)
 https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
 
 # Credits:
