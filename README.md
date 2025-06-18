@@ -6,11 +6,16 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/04101939.png)
 
 ## Table of Contents
-- [🧬 BIOS Configuration for OpenCore Hackintosh (Z390 / Gigabyte Designare Example)](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
-- [💻 SSDT Overview](#-ssdt-overview)
-- [💽 Operating Systems Installed](#-operating-systems-installed)
-- [⚙️ System Configuration](#-system-configuration)
-- [🧰 Bootloader](#-bootloader)
+- [System Specifications](#-hackintosh-multi-boot-system--specifications)
+- [OpenCore Configuration Overview](#-opencore-configplist-key-section-overview)
+- [SSDT Explanation](#ssdt-overview)
+- [BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
+- [macOS Versions](#macos-versions-history)
+- [Kexts Used](#kexts)
+- [EFI Downloads](#download-my-efis-here-zip-file)
+- [Confirmed Functionality](#confirmed-working)
+- [Overclocking (Optional)](#optional-overclocking-z390-designare-i7-9700k-to-5ghz)
+- [Credits and Resources](#credits)
 
 ## 🖥️ Hackintosh Multi-Boot System – Specifications
 
