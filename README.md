@@ -15,6 +15,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [🍏 macOS Versions](#macos-versions-history)
 - [📦 Kexts Used](#kexts)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
+- [📝 EFI Changelogs](#efi-changelogs)
 - [✅ Confirmed Functionality](#confirmed-working)
 - [⚡ Overclocking (Optional)](#optional-overclocking-z390-designare-i7-9700k-to-5ghz)
 - [🙌 Credits and Resources](#credits)
