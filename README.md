@@ -7,13 +7,18 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 
 ## 📚 Table of Contents
 - [🖥️ Hackintosh Multi-Boot System – Specifications](#️-hackintosh-multi-boot-system--specifications)
+- [⚙️ System Configuration](#️-system-configuration)
 - [💽 Operating Systems Installed](#-operating-systems-installed)
 - [🧰 Bootloader](#-bootloader)
+- [Create your USB stick with your pre-made EFI](#create-your-usb-stick-with-your-pre-made-efi)
 - [🔧 OpenCore Configuration Overview](#-opencore-configplist-key-section-overview)
+- [🖥️ PlatformInfo > Generic](#️-platforminfo--generic)
+- [🧠 NVRAM > boot-args](#️-nvram--boot-args)
 - [🧩 Kernel > Add (Kexts)](#-kernel--add-kexts)
-- [🧩 SSDT Explanation](#ssdt-overview)
+- [⚙️ ACPI > Add (SSDTs)](#️-acpi--add-ssdts)
 - [🧬 BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
 - [🍏 macOS Versions](#macos-versions-history)
+- [Update your OpenCore EFI (small how-to)](#update-your-opencore-efi-small-how-to)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
 - [📝 EFI Changelogs](#efi-changelogs)
 - [✅ Confirmed Functionality](#confirmed-working)
@@ -60,7 +65,7 @@ This system runs macOS Sequoia, Windows 11 Pro, and Ubuntu in a multi-boot setup
 - Everything I did went according @CaseySJ his outstanding guides on:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 
-# Create your USB stick with your pre-made EFI:
+#  Create your USB stick with your pre-made EFI:
 Please see this page:
 https://github.com/joostiphone/MacOS-USB-Installer
 
@@ -97,8 +102,6 @@ The `boot-args` field passes arguments to the macOS kernel at startup. These are
 ## 🧩 Kernel > Add (Kexts)
 These kernel extensions (kexts) are required to emulate Apple hardware functionality or enable third-party components:
 
-### 📦 Kext Overview for Z390 Hackintosh (OpenCore)
-
 | **Kext File**               | **Description**                                                         | **Required?** | **Notes** |
 |----------------------------|-------------------------------------------------------------------------|---------------|-----------|
 | `Lilu.kext`                | Core patching engine for other kexts like WEG and AppleALC              | ✅ Yes        | Always required for modern macOS builds |
@@ -133,21 +136,6 @@ Custom SSDTs (ACPI tables) improve hardware compatibility and allow macOS to rec
 | `SSDT-NVRAM.aml` | Emulates NVRAM if missing in BIOS. | ❓ Depends | Only for systems without native NVRAM support. |
 | `SSDT-USBW.aml` | Enables USB wake from sleep. | ⚠️ Optional | Only needed for wake-on-keyboard/mouse. |
 
-## SSDT Overview
-
-| **SSDT Filename** | **Description** | **Required?** | **Notes** |
-|------------------|------------------|----------------|-----------|
-| `SSDT-DESIGNARE-Z390-NO-CNVW.aml` | Disables unsupported CNVi Wi-Fi on Z390 Designare | ✅ Yes | Prevents ACPI conflicts with CNVi hardware |
-| `SSDT-DMAC.aml` | Adds a DMA controller definition for compatibility | ⚠️ Optional | Avoids boot warnings; safe to include |
-| `SSDT-DMAR.aml` | Emulates DMA Remapping (VT-d) ACPI table | ⚠️ Optional | Only needed if VT-d is enabled in BIOS |
-| `SSDT-DTPG.aml` | Enables patching of ACPI methods like _STA/_INI | ✅ Yes | Needed by other SSDTs like USB or TB3 |
-| `SSDT-EC.aml` | Emulates an Embedded Controller for macOS | ✅ Yes | Required on Z390 boards to boot macOS |
-| `SSDT-NVRAM.aml` | Adds simulated NVRAM support if not present | ❓ Depends | Only needed if your BIOS lacks native NVRAM |
-| `SSDT-PLUG.aml` | Enables CPU power management (XCPM) | ✅ Yes | Required for proper performance and idle states |
-| `SSDT-TB3-HackinDROM.aml` | Activates Thunderbolt 3 and hotplug support | ✅ Yes | Required for working TB3 on Designare Z390 |
-| `SSDT-UIAC-...FenviBluetooth.aml` | Custom USB port mapping to stay under 15-port limit | ✅ Yes | Ensures reliable USB and Bluetooth function |
-| `SSDT-USBW.aml` | Allows USB ports to wake the system from sleep | ⚠️ Optional | Only if wake from keyboard/mouse is needed |
-
 ## 💡 Notes
 
 - ✅ = Required for most setups  
@@ -156,13 +144,12 @@ Custom SSDTs (ACPI tables) improve hardware compatibility and allow macOS to rec
 
 For full config structure examples and verified setups, visit [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
 
+## 🧬 BIOS Configuration for OpenCore Hackintosh (Z390 / Gigabyte Designare Example)
 
-# BIOS Settings (from tonymacx86.com):
+### BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-3038#post-2239464
-
-## 🧬 BIOS Configuration for OpenCore Hackintosh (Z390 / Gigabyte Designare Example)
 
 To ensure compatibility with macOS and OpenCore, your BIOS must be configured correctly. Follow these steps before booting into the installer.
 
