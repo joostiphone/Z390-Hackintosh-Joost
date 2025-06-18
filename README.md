@@ -17,8 +17,10 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [🧩 Kernel > Add (Kexts)](#-kernel--add-kexts)
 - [⚙️ ACPI > Add (SSDTs)](#️-acpi--add-ssdts)
 - [🧬 BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
-- [Sonoma and Ventura on OpenCore](#sonoma-and-ventura-on-opencore)
-- [Sequoia and Sonoma on OpenCore](#sequoia-and-sonoma-on-opencore)
+- [🍇 Sonoma and Ventura on OpenCore](#sonoma-and-ventura-on-opencore)
+- [🌲 Sequoia and Sonoma on OpenCore](#sequoia-and-sonoma-on-opencore)
+- [🏔️ Tahoe on OpenCore](#tahoe-on-opencore)
+- [⚠️ PRECAUTION:](#-precaution)
 - [Update your OpenCore EFI (small how-to)](#update-your-opencore-efi-small-how-to)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
 - [📝 EFI Changelogs](#efi-changelogs)
@@ -207,14 +209,17 @@ CFG-Lock → <strong>Disabled</strong>  # Allows macOS kernel to write MSR 0xE2 
 - `VT-d` must be enabled for `AppleVTD` in macOS 12.3 and later.
 - Always save BIOS settings to a profile for quick recovery in case of resets.
 
-# Sonoma and Ventura on OpenCore
+# 🍇 Sonoma and Ventura on OpenCore
 Sonoma and Ventura with OpenCore are working very well. OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
 
-# Sequoia and Sonoma on OpenCore
+# 🌲 Sequoia and Sonoma on OpenCore
 Sequoia on Opencore is working fine also with a few things to keep in mind: I'm using Heliport+Itlwm, and when installing it needs the HDMI port instead of the DisplayPort. 
 So far, Sonoma works with the same EFI, so you can dualboot without any trouble. 
 
-PRECAUSION:
+# 🏔️ Tahoe on OpenCore
+
+
+# ⚠️ PRECAUTION:
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
 -  https://github.com/acidanthera/OpenCorePkg/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
