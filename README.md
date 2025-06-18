@@ -33,6 +33,91 @@ https://github.com/joostiphone/MacOS-USB-Installer
 
  ![alt test](/Pictures/USB-STICK-Vent-Sonoma.png)
 
+# 🔧 OpenCore config.plist Key Section Overview
+
+This section provides an explanation of the most commonly used settings in a Hackintosh `config.plist` file, useful for understanding how OpenCore enables macOS to run on non-Apple hardware.
+
+## 🖥️ PlatformInfo > Generic
+
+| **Key** | **Description** |
+|--------|------------------|
+| `SystemProductName` | Defines the Mac model to spoof (e.g., iMac20,2, MacPro7,1, etc.). This determines compatibility with macOS updates and hardware acceleration. |
+| `SystemSerialNumber` | A unique serial number for the system. Should not match any real Mac to avoid iCloud/iMessage issues. |
+| `MLB` (Main Logic Board) | Logic board serial number. Required for Apple ID services like iMessage and FaceTime. Must match the spoofed SMBIOS model. |
+| `ROM` | Typically the MAC address of the system’s primary network adapter (Ethernet). Used as part of Apple’s service validation. |
+| `SystemUUID` | A Universally Unique Identifier for the system. Used by services such as iCloud, Handoff, and Continuity. |
+
+## 🧠 NVRAM > boot-args
+
+The `boot-args` field passes arguments to the macOS kernel at startup. These are used for enabling specific functionality, debugging, and patching:
+
+| **Common Boot Args** | **Description** |
+|----------------------|-----------------|
+| `agdpmod=pikera` | Enables AMD GPU support by patching AppleGraphicsDevicePolicy. Required for most Navi (RX 5000/6000) cards. |
+| `alcid=xx` | Enables onboard audio through AppleALC, where `xx` is your layout ID (e.g., `alcid=11`). |
+| `-lilubetaall` | Allows Lilu to load in macOS beta versions or on newer OS builds. |
+| `-wegbeta` | Enables beta support in WhateverGreen. Useful with newer GPUs or experimental macOS versions. |
+| `-v` | Verbose boot (shows text during boot instead of the Apple logo). |
+| `keepsyms=1 debug=0x100` | Debug options useful during troubleshooting and kernel panics. |
+| `-vsmcbeta`, `-revbeta` | Enable beta support for VirtualSMC and RestrictEvents kexts, respectively. Only needed when using beta versions of these kexts. |
+
+## 🧩 Kernel > Add (Kexts)
+
+These kernel extensions (kexts) are required to emulate Apple hardware functionality or enable third-party components:
+
+| **Kext** | **Purpose** |
+|---------|-------------|
+| `Lilu.kext` | Core patching engine required by many other kexts (AppleALC, WhateverGreen, etc.). |
+| `VirtualSMC.kext` | Emulates Apple's SMC (System Management Controller), required to boot macOS. |
+| `WhateverGreen.kext` | Enables and patches graphics output, GPU acceleration, and framebuffer configuration. |
+| `AppleALC.kext` | Enables onboard audio via layout injection. |
+| `IntelMausi.kext` | Enables Intel Ethernet adapters. |
+| `NVMeFix.kext` | Optimizes NVMe SSD compatibility and performance. |
+| `RestrictEvents.kext` | Prevents unwanted macOS behavior and helps spoof unsupported CPUs. |
+| `AirportItlwm.kext` or variants | Enables Intel Wi-Fi (e.g., `itlwm.kext`, `AirportItlwm-Sonoma.kext`). Choose only one. |
+| `USBInjectAll.kext` | Legacy method to inject USB ports. Use with `SSDT-UIAC` for mapping. Not recommended for long-term use. |
+| `XHCI-unsupported.kext` | Adds support for older or non-standard USB controllers. Only use if absolutely necessary. |
+
+## ⚙️ ACPI > Add (SSDTs)
+
+Custom SSDTs (ACPI tables) improve hardware compatibility and allow macOS to recognize or emulate missing components:
+
+| **SSDT Filename** | **Description** | **Required?** | **Notes** |
+|------------------|------------------|----------------|-----------|
+| `SSDT-PLUG.aml` | Enables native CPU power management via Apple XCPM. | ✅ Yes | Required for proper CPU frequency scaling. |
+| `SSDT-EC.aml` | Emulates a missing Embedded Controller (EC). | ✅ Yes | Required for booting on most modern motherboards. |
+| `SSDT-UIAC.aml` | Custom USB port mapping to stay under the 15-port macOS limit. | ✅ Yes | Should be used instead of USBInjectAll long-term. |
+| `SSDT-DTPG.aml` | Enables patching ACPI methods (_STA/_INI) used by other SSDTs. | ✅ Yes | Often a dependency for UIAC or Thunderbolt SSDTs. |
+| `SSDT-TB3.aml` | Enables Thunderbolt 3 hotplug and stability. | ⚠️ Optional | Required if using Thunderbolt ports. |
+| `SSDT-DMAR.aml` | Patches or emulates VT-d ACPI table. | ⚠️ Optional | Only needed if VT-d is enabled. |
+| `SSDT-DMAC.aml` | Adds DMA controller definition. | ⚠️ Optional | Avoids ACPI warnings; safe to include. |
+| `SSDT-NVRAM.aml` | Emulates NVRAM if missing in BIOS. | ❓ Depends | Only for systems without native NVRAM support. |
+| `SSDT-USBW.aml` | Enables USB wake from sleep. | ⚠️ Optional | Only needed for wake-on-keyboard/mouse. |
+
+## SSDT Overview
+
+| **SSDT Filename** | **Description** | **Required?** | **Notes** |
+|------------------|------------------|----------------|-----------|
+| `SSDT-DESIGNARE-Z390-NO-CNVW.aml` | Disables unsupported CNVi Wi-Fi on Z390 Designare | ✅ Yes | Prevents ACPI conflicts with CNVi hardware |
+| `SSDT-DMAC.aml` | Adds a DMA controller definition for compatibility | ⚠️ Optional | Avoids boot warnings; safe to include |
+| `SSDT-DMAR.aml` | Emulates DMA Remapping (VT-d) ACPI table | ⚠️ Optional | Only needed if VT-d is enabled in BIOS |
+| `SSDT-DTPG.aml` | Enables patching of ACPI methods like _STA/_INI | ✅ Yes | Needed by other SSDTs like USB or TB3 |
+| `SSDT-EC.aml` | Emulates an Embedded Controller for macOS | ✅ Yes | Required on Z390 boards to boot macOS |
+| `SSDT-NVRAM.aml` | Adds simulated NVRAM support if not present | ❓ Depends | Only needed if your BIOS lacks native NVRAM |
+| `SSDT-PLUG.aml` | Enables CPU power management (XCPM) | ✅ Yes | Required for proper performance and idle states |
+| `SSDT-TB3-HackinDROM.aml` | Activates Thunderbolt 3 and hotplug support | ✅ Yes | Required for working TB3 on Designare Z390 |
+| `SSDT-UIAC-...FenviBluetooth.aml` | Custom USB port mapping to stay under 15-port limit | ✅ Yes | Ensures reliable USB and Bluetooth function |
+| `SSDT-USBW.aml` | Allows USB ports to wake the system from sleep | ⚠️ Optional | Only if wake from keyboard/mouse is needed |
+
+## 💡 Notes
+
+- ✅ = Required for most setups  
+- ⚠️ = Only needed in specific situations  
+- ❓ = Depends on system firmware/hardware
+
+For full config structure examples and verified setups, visit [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).
+
+
 # BIOS Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
 PS: make sure you AVOID BIOS version F9j. A modified F9i version (with the security fixes from Fgj) can be found here:
@@ -204,6 +289,9 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 7. 18-3-2025 Z390 OC105DEV Sequoia Itlwm+Heliport NoSN: Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that.Upgrading to macOS 15.4 dev () on OpenCore 1.0.5 dev and latest Kext-betas as per 18-3-2025. Using Heliport+Itlwm only on Sequoia. Itlwm (so don't confuse with AirPortItlwm) is activated with HeliPort to enable onboard Intel WiFi module, instead of using a Broadcom (e.g. Fenvi card) chip. This and future EFI releases is for Sequoia only, hence I stop maintaining the EFI for older macOS versions. Use previous EFI's for that. I'm using Lorys89 Itlwm version, since that one is working with Sequoia: https://github.com/Lorys89/itlwm/releases & https://github.com/OpenIntelWireless/HeliPort/releases
 
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
+
+# macOS Tahoe (macOS 26)
+1. Trying to get it to boot (18th of June 2025)
 
 # Itlwm + HeliPort:
  ![alt test](/Pictures/2025-03-18_10-04-06.png)
