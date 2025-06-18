@@ -219,7 +219,7 @@ So far, Sonoma works with the same EFI, so you can dualboot without any trouble.
 # 🏔️ Tahoe on OpenCore
 
 
-# ⚠️ PRECAUTION
+# ⚠️ Precaution
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
 -  https://github.com/acidanthera/OpenCorePkg/releases
 - Also great info from: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
