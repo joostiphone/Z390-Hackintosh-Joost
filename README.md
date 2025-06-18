@@ -10,10 +10,10 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [💽 Operating Systems Installed](#-operating-systems-installed)
 - [🧰 Bootloader](#-bootloader)
 - [🔧 OpenCore Configuration Overview](#-opencore-configplist-key-section-overview)
+- [🧩 Kernel > Add (Kexts)](#-kernel--add-kexts)
 - [🧩 SSDT Explanation](#ssdt-overview)
 - [🧬 BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
 - [🍏 macOS Versions](#macos-versions-history)
-- [📦 Kexts Used](#kexts)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
 - [📝 EFI Changelogs](#efi-changelogs)
 - [✅ Confirmed Functionality](#confirmed-working)
@@ -95,8 +95,8 @@ The `boot-args` field passes arguments to the macOS kernel at startup. These are
 | `-vsmcbeta`, `-revbeta` | Enable beta support for VirtualSMC and RestrictEvents kexts, respectively. Only needed when using beta versions of these kexts. |
 
 ## 🧩 Kernel > Add (Kexts)
-
 These kernel extensions (kexts) are required to emulate Apple hardware functionality or enable third-party components:
+
 ### 📦 Kext Overview for Z390 Hackintosh (OpenCore)
 
 | **Kext File**               | **Description**                                                         | **Required?** | **Notes** |
