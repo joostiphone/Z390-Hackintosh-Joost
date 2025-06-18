@@ -5,19 +5,37 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/04101939.png)
 
-# PC specifications:
-- Current OS's installed: MacOS Sequoia, MacOS Sonoma, Windows 11 Pro and Ubuntu
-- Processor: Intel Core i7 9700K, 9th Gen (Code name: Coffee Lake)
-- Motherboard: Gigabyte Z390 Designare
-- PC Case: Fractal Design Define R6 USB-C TG
-- Sound card (onboard): ALC 1220-VB audio controller
-- SSD storage: WD BLACK SN850X NVMe SSD, Crucial Crucial MX500, 1TB 
-- Graphic card: AMD RX 6800 XT 16GB (previously the AMD Sapphire Nitro+ Radeon RX 570 4GD5)
-- Fenvi T919 for WiFi/Bluetooth, AirDrop, Apple Watch Unlock, etc.
-- Power Supply: Be quiet! Dark Power 12 1000W
-- Memory (RAM): Corsair Vengeance LPX (2x 16GB, total 32GB)
-- Display: iiyama G-Master GB3466WQSU-B1 UltraWideScreen, 34 inch. Using DisplayPort. 
-- Cooling system: Cooler Master ML360R RGB 
+## 🖥️ Hackintosh Multi-Boot System – Specifications
+
+This system runs macOS Sequoia, Windows 11 Pro, and Ubuntu in a multi-boot setup using OpenCore. Below is a detailed breakdown of the hardware configuration:
+
+### ⚙️ System Configuration
+
+| Component        | Specification |
+|------------------|---------------|
+| **CPU**          | Intel Core i7-9700K (9th Gen, Coffee Lake) |
+| **Motherboard**  | Gigabyte Z390 Designare |
+| **Case**         | Fractal Design Define R6 USB-C TG |
+| **Cooling**      | Cooler Master ML360R RGB (AIO Liquid Cooler) |
+| **Power Supply** | Be quiet! Dark Power 12 – 1000W |
+| **GPU**          | AMD Radeon RX 6800 XT, 16 GB VRAM<br>(Previously: AMD Sapphire Nitro+ RX 570 4GB) |
+| **RAM**          | 32 GB Corsair Vengeance LPX DDR4 (2×16GB) |
+| **Storage**      | - WD BLACK SN850X NVMe SSD<br>- Crucial MX500 SSD – 1TB |
+| **Audio**        | ALC1220-VB Onboard Audio (Realtek) |
+| **Wi-Fi / BT**   | Fenvi T919 (AirDrop, Handoff, Apple Watch Unlock, Continuity) |
+| **Monitor**      | iiyama G-Master GB3466WQSU-B1 34" UltraWide, DisplayPort |
+
+### 💽 Operating Systems Installed
+
+- **macOS Sequoia**
+- **Windows 11 Pro**
+- **Ubuntu (latest LTS)**
+
+### 🧰 Bootloader
+
+- **OpenCore** – Triple boot setup with dedicated drives for each OS. macOS is configured with native NVRAM, GPU acceleration, and Thunderbolt support.
+
+> For detailed BIOS settings and `config.plist` configuration, see the [BIOS Setup](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example) section.
 
   
  ![alt test](/Pictures/Temp.png)
