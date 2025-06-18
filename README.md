@@ -97,19 +97,25 @@ The `boot-args` field passes arguments to the macOS kernel at startup. These are
 ## 🧩 Kernel > Add (Kexts)
 
 These kernel extensions (kexts) are required to emulate Apple hardware functionality or enable third-party components:
+### 📦 Kext Overview for Z390 Hackintosh (OpenCore)
 
-| **Kext** | **Purpose** |
-|---------|-------------|
-| `Lilu.kext` | Core patching engine required by many other kexts (AppleALC, WhateverGreen, etc.). |
-| `VirtualSMC.kext` | Emulates Apple's SMC (System Management Controller), required to boot macOS. |
-| `WhateverGreen.kext` | Enables and patches graphics output, GPU acceleration, and framebuffer configuration. |
-| `AppleALC.kext` | Enables onboard audio via layout injection. |
-| `IntelMausi.kext` | Enables Intel Ethernet adapters. |
-| `NVMeFix.kext` | Optimizes NVMe SSD compatibility and performance. |
-| `RestrictEvents.kext` | Prevents unwanted macOS behavior and helps spoof unsupported CPUs. |
-| `AirportItlwm.kext` or variants | Enables Intel Wi-Fi (e.g., `itlwm.kext`, `AirportItlwm-Sonoma.kext`). Choose only one. |
-| `USBInjectAll.kext` | Legacy method to inject USB ports. Use with `SSDT-UIAC` for mapping. Not recommended for long-term use. |
-| `XHCI-unsupported.kext` | Adds support for older or non-standard USB controllers. Only use if absolutely necessary. |
+| **Kext File**               | **Description**                                                         | **Required?** | **Notes** |
+|----------------------------|-------------------------------------------------------------------------|---------------|-----------|
+| `Lilu.kext`                | Core patching engine for other kexts like WEG and AppleALC              | ✅ Yes        | Always required for modern macOS builds |
+| `WhateverGreen.kext`       | Graphics patching for AMD, Intel, and legacy NVIDIA GPUs                | ✅ Yes        | Required for RX 6800 XT (use `agdpmod=pikera` in boot-args) |
+| `AppleALC.kext`            | Enables audio via layout injection (e.g., Realtek ALC1220-VB)            | ✅ Yes        | Use boot-arg `alcid=11` for Gigabyte Z390 onboard audio |
+| `VirtualSMC.kext`          | Emulates Apple’s SMC for temperature, fans, power management             | ✅ Yes        | Core component – replaces FakeSMC |
+| `SMCProcessor.kext`        | Adds CPU temperature sensors (used with VirtualSMC)                      | ⚠️ Optional   | Only required for monitoring tools like iStat Menus or HWMonitor |
+| `SMCSuperIO.kext`          | Adds motherboard fan/voltage sensors                                     | ⚠️ Optional   | Same as above – enables full hardware monitoring |
+| `IntelMausi.kext`          | Intel Ethernet driver (i219-V on Z390)                                   | ✅ Yes        | Enables native Ethernet without additional config |
+| `NVMeFix.kext`             | Optimizes NVMe SSD behavior and power management                         | ✅ Yes        | Recommended for all NVMe drives (e.g., WD SN850X) |
+| `RestrictEvents.kext`      | Prevents crashes and issues on unsupported CPUs in macOS 14+             | ✅ Yes        | Required for macOS Sonoma and Sequoia |
+| `AirportItlwm.kext`        | Intel Wi-Fi support (for CNVi cards)                                     | ✅ Yes        | Use if you rely on built-in Intel Wi-Fi instead of Fenvi T919 |
+| `BrcmPatchRAM3.kext`       | Enables Broadcom Bluetooth stack                                         | ✅ Yes        | Required for Fenvi T919 or any Broadcom BT module |
+| `BrcmFirmwareData.kext`    | Loads Bluetooth firmware for Broadcom adapters                           | ✅ Yes        | Works in tandem with PatchRAM |
+| `BrcmBluetoothInjector.kext` | Injects BT configuration for Broadcom modules                         | ✅ Yes        | Required for Broadcom BT on macOS ≤14 |
+| `USBInjectAll.kext`        | Legacy USB injector for all ports                                        | ❌ No         | Only useful during port-mapping; not needed with `SSDT-UIAC.aml` or `USBPorts.kext` |
+| `USBPorts.kext` / `USBToolBox.kext` | Custom USB mapping solution                             | ✅ Yes        | Use one or the other (not both); alternative to using `SSDT-UIAC.aml` |
 
 ## ⚙️ ACPI > Add (SSDTs)
 
@@ -242,26 +248,6 @@ https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3
 - Make sure first to install the latest Kext files
 - Install latest OpenCore; but first make sure that this works according other users. Latest OpenCore build:
 https://github.com/acidanthera/OpenCorePkg/releases
-
-# Kexts:
-Make sure (!) you are using the latest kexts: 
-
-- AppleALC.kext
-https://github.com/acidanthera/applealc/releases
-- IntelMausi.kext
-https://github.com/acidanthera/IntelMausi/releases
-- SMCProcessor.kext
-It's part of the VirtualSMC zip as per below kext
-- USBInjectAll.kext
-https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/
-- Lilu.kext
-https://github.com/acidanthera/Lilu/releases
-- WhateverGreen.kext
-https://github.com/acidanthera/WhateverGreen/releases
-- VirtualSMC.kext
-https://github.com/acidanthera/VirtualSMC/releases
-
-For convenvience purposes, use either OpenCore Configurator or Hackintool to mount EFI and update the Kexts. I always provide the latest Kexts in my EFI as per below.
 
 # Update your OpenCore EFI (small how-to)
 ![alt test](Pictures/OpenCoreUpdate.png)
