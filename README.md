@@ -5,6 +5,13 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 ![alt test](Pictures/RX6800XT-hackintosh1.jpg)
 ![alt test](Pictures/04101939.png)
 
+## Table of Contents
+- [🧬 BIOS Configuration for OpenCore Hackintosh (Z390 / Gigabyte Designare Example)](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
+- [💻 SSDT Overview](#-ssdt-overview)
+- [💽 Operating Systems Installed](#-operating-systems-installed)
+- [⚙️ System Configuration](#-system-configuration)
+- [🧰 Bootloader](#-bootloader)
+
 ## 🖥️ Hackintosh Multi-Boot System – Specifications
 
 This system runs macOS Sequoia, Windows 11 Pro, and Ubuntu in a multi-boot setup using OpenCore. Below is a detailed breakdown of the hardware configuration:
