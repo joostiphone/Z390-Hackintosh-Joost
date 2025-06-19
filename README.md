@@ -217,7 +217,7 @@ Sequoia on Opencore is working fine also with a few things to keep in mind: I'm 
 So far, Sonoma works with the same EFI, so you can dualboot without any trouble. 
 
 # 🏔️ Tahoe on OpenCore
-
+Working on it... Tahoe seems to have difficulties with dGPU. 
 
 # ⚠️ Precaution
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
