@@ -24,8 +24,8 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [Update your OpenCore EFI (small how-to)](#update-your-opencore-efi-small-how-to)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
 - [📝 EFI Changelogs](#efi-changelogs)
-- [✅ Confirmed Functionality](#confirmed-working)
-- [⚡ Overclocking (Optional)](#optional-overclocking-z390-designare-i7-9700k-to-5ghz)
+- [✅ Confirmed Functionality](#-confirmed-functionality)
+- [⚡ Overclocking (Optional)](#-optional-overclocking-z390-designare-i7-9700k-to-5ghz)
 - [🙌 Credits and Resources](#credits)
 
 ## 🖥️ Hackintosh Multi-Boot System – Specifications
