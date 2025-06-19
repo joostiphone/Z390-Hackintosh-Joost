@@ -25,7 +25,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
 - [📝 EFI Changelogs](#efi-changelogs)
 - [✅ Confirmed Functionality](#-confirmed-functionality)
-- [⚡ Overclocking (Optional)](#-optional-overclocking-z390-designare-i7-9700k-to-5ghz)
+- [⚡ Overclocking (Optional)](#optionally-overclocking-to-5ghz)
 - [🙌 Credits and Resources](#credits)
 
 ## 🖥️ Hackintosh Multi-Boot System – Specifications
@@ -431,7 +431,7 @@ Side Car X As you can see here using my regular display and iPad Pro:
 ![alt test](Pictures/sidecar.png)
 
 
-# Optional: Overclocking Z390 Designare, i7-9700K to 5Ghz (I'm not using this, but tested with it):
+# Optionally Overclocking to 5Ghz:
 Some basic settings, but you can still look at the attached BIOS screenshots for further details:
 - CPU Base Clock: 100Mhz
 - Extreme Memory Profile (XMP): Profile 1
