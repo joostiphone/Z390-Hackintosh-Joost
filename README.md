@@ -209,14 +209,14 @@ CFG-Lock → <strong>Disabled</strong>  # Allows macOS kernel to write MSR 0xE2 
 - `VT-d` must be enabled for `AppleVTD` in macOS 12.3 and later.
 - Always save BIOS settings to a profile for quick recovery in case of resets.
 
-# 🍇 Sonoma and Ventura on OpenCore
+# Sonoma and Ventura on OpenCore
 Sonoma and Ventura with OpenCore are working very well. OpenCore EFI files support both Ventura and Sonoma; only difference is OC version and the use of AirPort Itlwm for Intel WiFi.
 
-# 🌲 Sequoia and Sonoma on OpenCore
+# Sequoia and Sonoma on OpenCore
 Sequoia on Opencore is working fine also with a few things to keep in mind: I'm using Heliport+Itlwm, and when installing it needs the HDMI port instead of the DisplayPort. 
 So far, Sonoma works with the same EFI, so you can dualboot without any trouble. 
 
-# 🏔️ Tahoe on OpenCore
+# Tahoe on OpenCore
 Working on it... Tahoe seems to have difficulties with dGPU. 
 
 # ⚠️ Precaution
