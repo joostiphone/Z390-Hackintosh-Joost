@@ -382,7 +382,9 @@ https://mega.nz/folder/FkxA1b4Y#FP5Dn3u1b4C_PRsCEG13rQ
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
-# Confirmed working (Monterey and Ventura):
+# ✅ Confirmed Functionality
+
+## What is working with Monterey and Ventura
 CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
@@ -404,7 +406,7 @@ AirDrop (Fenvi) ✔
 HandOff ✔ 
 Side Car ✔ As you can see here using my regular display and iPad Pro:
 
-# Confirmed working/not working (Sequoia):
+## What is working with Sequoia
 CPU, RAM, Fans, Cooling etc. ✔
 Audio ✔
 Ethernet ✔
