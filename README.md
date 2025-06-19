@@ -19,7 +19,7 @@ This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and
 - [🧬 BIOS Configuration](#-bios-configuration-for-opencore-hackintosh-z390--gigabyte-designare-example)
 - [🍇 Sonoma and Ventura on OpenCore](#-sonoma-and-ventura-on-opencore)
 - [🌲 Sequoia and Sonoma on OpenCore](#-sequoia-and-sonoma-on-opencore)
-- [🏔️ Tahoe on OpenCore](#-tahoe-on-opencore)
+- [🏔️ Tahoe on OpenCore](#--tahoe-on-opencore)
 - [⚠️ PRECAUTION:](#-precaution)
 - [Update your OpenCore EFI (small how-to)](#update-your-opencore-efi-small-how-to)
 - [📥 EFI Downloads](#download-my-efis-here-zip-file)
