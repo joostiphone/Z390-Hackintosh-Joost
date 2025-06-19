@@ -444,18 +444,5 @@ Some basic settings, but you can still look at the attached BIOS screenshots for
 ## BIOS Overclock Settings (BIOS Screenshots)
 https://mega.nz/file/NxxG2AbI#AvhLcGAFm98mz7CnLYa2zVFylmE6mv70xCRrGh2bJQ4
 
-# Credits:
+# Credits and Resources:
 https://github.com/joostiphone/Credits/blob/main/README.md
-
-# Resources
-- https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/
-- https://www.tonymacx86.com/threads/success-working-intel-wifi-drivers-for-7265ac-on-catalina.292207/post-2131153
-- https://hackintosh.gitbook.io 
-- https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#backstory
-- https://github.com/acidanthera/OpenCorePkg/releases
-- https://github.com/williambj1/OpenCore-Factory/releases
-- https://mackie100projects.altervista.org/download-opencore-configurator/
-- https://github.com/Pavo-IM/OC-Gen-X
-- https://github.com/Pavo-IM/ocbuilder
-- https://github.com/Lorys89/itlwm/releases
-- https://github.com/OpenIntelWireless/HeliPort/releases
