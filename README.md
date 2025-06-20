@@ -221,6 +221,8 @@ So far, Sonoma works with the same EFI, so you can dualboot without any trouble.
 
 20-6-2025 Progress has been made. I will share files later on.
 
+![alt test](Pictures/Screenshot 2025-06-20.png)
+
 ## 🧪 Installing macOS Tahoe Developer Beta 1 on a Z390 Designare Hackintosh (i7-9700K)
 
 🚠 **Work in Progress**
