@@ -217,7 +217,93 @@ CFG-Lock → <strong>Disabled</strong>  # Allows macOS kernel to write MSR 0xE2 
 So far, Sonoma works with the same EFI, so you can dualboot without any trouble. 
 
 # Tahoe on OpenCore
-🏔️ Working on it... Tahoe seems to have difficulties with dGPU. 
+🏔️ Working on it...
+
+20-6-2025 Progress has been made. I will share files later on.
+
+## 🧪 Installing macOS Tahoe Developer Beta 1 on a Z390 Designare Hackintosh (i7-9700K)
+
+🚠 **Work in Progress**
+Please note: macOS 26 “Tahoe” is still in early developer beta stage. There are multiple unresolved bugs both in Apple’s system components and third-party kexts. Expect instability, incomplete hardware support, and changes with every beta. Use this only on non-critical systems and with a separate SSD.
+
+---
+
+### ✅ Requirements
+
+* A working Hackintosh system (e.g. running macOS Sequoia or earlier)
+* A separate SSD (do **not** install over your main macOS installation)
+* OCAuxiliaryTools installed on your working system
+* Two provided EFI folders:
+
+  * `20-6-2025 EFI for Installation of Tahoe.zip`
+  * `20-6-2025 EFI for Tahoe SSD After Install.zip`
+
+---
+
+### 🛠️ Installation Steps
+
+#### 0. Create a bootable macOS Tahoe USB stick
+
+Follow the instructions here:
+🔗 [https://github.com/joostiphone/MacOS-USB-Installer](https://github.com/joostiphone/MacOS-USB-Installer)
+
+---
+
+#### 1. Extract `20-6-2025 EFI for Installation of Tahoe.zip`
+
+This EFI is specifically prepared to boot the macOS Tahoe installer.
+
+---
+
+#### 2. Copy this EFI folder to your USB stick
+
+* Mount the EFI partition of the USB using OCAuxiliaryTools (`⌘ + M` in OCAT)
+* Replace any existing `EFI` folder (if there is any) with the extracted one
+
+---
+
+#### 3. Boot the USB and install macOS Tahoe
+
+* Boot your Hackintosh using the USB stick (use BIOS boot menu: `F12`)
+* Select “Install macOS” from OpenCore
+* Be sure to install onto a **separate SSD** — this ensures your working system remains untouched
+
+---
+
+#### 4. If installation gets stuck (common in Dev Beta 1):
+
+* Reboot back into your current macOS installation (e.g. Sequoia) by pressing `F12` and choosing Sequoia
+* Mount the EFI partition of the SSD where you just installed Tahoe
+* Use OCAuxiliaryTools to replace that EFI (if any) with the one from:
+  `20-6-2025 EFI for Tahoe SSD After Install.zip`
+
+---
+
+#### 5. Reboot and boot from the macOS Tahoe SSD
+
+* Use the BIOS (`F12`) to select the SSD that now holds macOS Tahoe
+* Proceed with the remaining installation steps
+
+---
+
+#### 6. Complete the installation
+
+macOS should now continue and finalize the setup process. Be patient — it may reboot several times.
+
+---
+
+#### 7. You’re in!
+
+If all goes well, you’ll land on the macOS Tahoe desktop.
+
+---
+
+#### 🗭 Notes and Known Issues
+
+* FileVault seems to turn on all of a sudden in macOS Tahoe Dev1, so make sure that you enable automatic login in macOS Settings
+* Expect bugs and missing features — this is developer-only software
+
+
 
 # ⚠️ Precaution
 - I'm using OpenCore. You can download the latest build from here which you can use during the EFI creation as per below (or use mine...):
