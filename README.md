@@ -219,7 +219,7 @@ So far, Sonoma works with the same EFI, so you can dualboot without any trouble.
 # Tahoe on OpenCore
 🏔️ Working on it...
 
-20-6-2025 Progress has been made. I will share files later on.
+20-6-2025 Progress has been made:
 
 ![alt test](Pictures/TahoeDev1.png)
 
