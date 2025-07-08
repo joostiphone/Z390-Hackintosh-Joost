@@ -449,27 +449,30 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 
 # macOS Tahoe (macOS 26)
 1. Trying to get it to boot (18th of June 2025) First EFI release: https://github.com/joostiphone/Z390-Hackintosh-Joost/releases/tag/v1.0.5dev1
-2. Updated to Tahoe Beta 3 without any isuess on OpenCore 1.0.5. EFI release: 
+2. Updated to Tahoe Beta 3 without any isuess on OpenCore 1.0.5. EFI release: https://github.com/joostiphone/Z390-Hackintosh-Joost/releases/tag/v1.0.5dev3
 
  ![alt test](/Pictures/2025-07-08_10-50-04.png)
 
 # Itlwm + HeliPort:
  ![alt test](/Pictures/2025-03-18_10-04-06.png)
 
-# Download my EFI's here (zip file):
+# Download my EFI's here, EFI's based on OpenCore: (zip file):
 On the right, here on Github, or download here. It supports Ventura, Monterey and Big Sur. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator in SMBIOS:
 
-Big Sur OpenCore:
+## Big Sur
 https://mega.nz/folder/81oAmI6Y#63JkmaR5IT3ONQ4G1RmfLQ
 
-Monterey and Ventura OpenCore:
+## Monterey and Ventura
 https://mega.nz/folder/0xRFwRga#K1b4jyXhH0XtVsxhJr9mSw
 
-Sonoma OpenCore:
+## Sonoma
 https://mega.nz/folder/shhCHazB#e5u_6ZfURV0NvEmtdgW_xw
 
-Sequoia OpenCore: 
+## Sequoia
 https://mega.nz/folder/FkxA1b4Y#FP5Dn3u1b4C_PRsCEG13rQ
+
+## Tahoe
+https://mega.nz/folder/tgwTySDQ#bXuMd7iRhI1AdX5dqWWv1w
 
 ![alt test](Pictures/2021-10-17_09-23-07.png)
 
