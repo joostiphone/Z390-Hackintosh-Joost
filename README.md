@@ -448,8 +448,8 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
  ![alt test](/Pictures/2024-06-30_11-01-09.png)
 
 # macOS Tahoe (macOS 26)
-1. Trying to get it to boot (18th of June 2025)
-2. Updated to Tahoe Beta 3 without any isuess on OpenCore 1.0.5.
+1. Trying to get it to boot (18th of June 2025) First EFI release: https://github.com/joostiphone/Z390-Hackintosh-Joost/releases/tag/v1.0.5dev1
+2. Updated to Tahoe Beta 3 without any isuess on OpenCore 1.0.5. EFI release: 
 
  ![alt test](/Pictures/2025-07-08_10-50-04.png)
 
