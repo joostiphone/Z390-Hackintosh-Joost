@@ -449,6 +449,7 @@ keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -v -revbeta -lilubetaall -wegbeta
 
 # macOS Tahoe (macOS 26)
 1. Trying to get it to boot (18th of June 2025)
+2. Updated to Tahoe Beta 3 without any isuess on OpenCore 1.0.5.
 
 # Itlwm + HeliPort:
  ![alt test](/Pictures/2025-03-18_10-04-06.png)
