@@ -1,3 +1,10 @@
+# Archive this Hackintosh Project
+Although I still very much love Hackintoshin', I decided to fully switch to native Mac(OS) systems (MB Pro, Mac Mini M4) and turning my PC into a full blown Windows (Game + Ubuntu PC with default BIOS settings :) , hence without running OpenCore + MacOS. 
+
+It was fun! Thank you all for everything.
+
+PS: I'm also banned from TonyMacx86 for the most unclear reason, and unfortunately they are not people who listen to their most loyal users. There are a few other boards who provide great assistance such as https://forum.amd-osx.com and https://elitemacx86.com/. 
+
 # Z390-Hackintosh-Joost
 This is my Hackintosh build using a Z390 Designare, i7, RX 6800 XT, 32GB RAM and Fenvi T919.
 
